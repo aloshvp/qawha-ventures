@@ -1,7 +1,7 @@
 import { Poppins } from "next/font/google";
 import "./globals.css";
 import "@styles/mainbundle.scss";
-import SmoothScroll from "./components/SmoothScroll";
+import SmoothScroll from "@common/SmoothScroll";
 
 const poppins = Poppins({
   subsets: ["latin"],
