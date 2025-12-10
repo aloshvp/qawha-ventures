@@ -112,7 +112,7 @@
 .testimonialSwiper .swiper-pagination-bullet-active::before{background:#fff!important;opacity:1!important;transform:translate(-50%,-50%) scale(1.2)!important}
 
 /*blogs*/
-.blogsWrap{padding: 90px 0;background: #000;}
+.blogsWrap{padding: 90px 0 120px;background: #000;}
 .blogsHead{text-align: center;color: var(--yellow);margin-bottom: 75px;}
 .blogsHead > span{font-size: 25px;font-weight: 100;line-height: 1em;display: block;margin-bottom: 2px;}
 .blogsHead > h2{font-size: 80px;line-height: 1em;font-weight: 700;margin: 0;}
