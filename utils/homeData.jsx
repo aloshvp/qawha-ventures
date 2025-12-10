@@ -44,7 +44,7 @@ export const testimonials = [
     {
         id: 3,
         name: "Tiffany Daniels",
-        description: "Qahwa Ventures pours every cup with care and precision. Their authentic Italian blends and refined craftsmanship turn a simple coffee break into a rich, indulgent experience. The quality speaks for itself—we’ll definitely be coming back!"
+        description: "Qahwa Ventures pours every cup with care and precision. Their authentic Italian blends and refined craftsmanship turn a simple coffee break into a rich, indulgent experience. The quality speaks for itself—we'll definitely be coming back!"
     },
     {
         id: 4,
@@ -59,6 +59,41 @@ export const testimonials = [
     {
         id: 6,
         name: "Tiffany Daniels",
-        description: "Qahwa Ventures pours every cup with care and precision. Their authentic Italian blends and refined craftsmanship turn a simple coffee break into a rich, indulgent experience. The quality speaks for itself—we’ll definitely be coming back!"
+        description: "Qahwa Ventures pours every cup with care and precision. Their authentic Italian blends and refined craftsmanship turn a simple coffee break into a rich, indulgent experience. The quality speaks for itself—we'll definitely be coming back!"
     },
+]
+
+export const blogs = [
+    {
+        id: 1,
+        image: "/images/home/blog-img1.png",
+        date: "Sep 20, 2025",
+        title: "A coffee maker is more than a gadget",
+        description: "A coffee maker is a precision-designed appliance created to brew coffee with consistency, convenience, and exceptional flavor.",
+        link: ""
+    },
+    {
+        id: 2,
+        image: "/images/home/blog-img2.png",
+        date: "Sep 15, 2025",
+        title: "Importance of Coffee in Qatar",
+        description: "Coffee holds a deep cultural, social, and economic significance in Qatar. It is more than just a beverage—it is a symbol of hospitality, heritage, and connection.",
+        link: ""
+    },
+    {
+        id: 3,
+        image: "/images/home/blog-img3.png",
+        date: "Sep 10, 2025",
+        title: "Qatar World Coffee Expo 2025",
+        description: "While Arabic coffee remains a cultural staple, Qatar has also embraced Italian and international coffee trends, making cafés an integral part of modern social life. Coffee shops are now popular spaces for:",
+        link: ""
+    },
+    {
+        id: 4,
+        image: "/images/home/blog-img4.png",
+        date: "Sep 10, 2025",
+        title: "Why is Lusail the City of the Future in Qatar?",
+        description: "Qatar’s booming economy and cosmopolitan population have created a strong demand for premium coffee experiences. Luxury coffee brands and specialty cafés contribute significantly to the food & beverage industry.",
+        link: ""
+    }
 ]
