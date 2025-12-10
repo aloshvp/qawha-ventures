@@ -1,41 +1,39 @@
 'use client';
-
 import { useEffect } from 'react';
 import Lenis from 'lenis';
 
-const SmoothScroll = ({ children }) => {
+const SmoothScroll = () => {
   useEffect(() => {
     const lenis = new Lenis({
-      duration: 0.8, // Faster response time
-      easing: (t) => t, // Linear easing for more direct response
-      direction: 'vertical',
-      gestureDirection: 'vertical',
       smooth: true,
-      mouseMultiplier: 1.2, // More responsive mouse control
-      smoothTouch: false,
-      touchMultiplier: 1.8, // Balanced touch response
-      infinite: false,
-      lerp: 0.08, // Lower lerp for more responsive tracking
-      wheelMultiplier: 1, // Standard wheel sensitivity
-    });
+      smoothTouch: true,
 
-    let rafId;
+      // --- Ultra Smooth Values ---
+      duration: 1.6,                                // slightly slower, more fluid
+      easing: (t) => 1 - Math.pow(1 - t, 4),        // soft, elastic-like motion
+      lerp: 0.08,                                   // buttery gliding motion
+
+      wheelMultiplier: 0.9,                         // extra soft scroll
+      touchMultiplier: 1.1,                         // smoother touch movement
+      gestureDirection: 'vertical',
+      direction: 'vertical',
+      infinite: false,
+    });
 
     function raf(time) {
       lenis.raf(time);
-      rafId = requestAnimationFrame(raf);
+      requestAnimationFrame(raf);
     }
 
-    rafId = requestAnimationFrame(raf);
+    requestAnimationFrame(raf);
 
-    // Cleanup function
     return () => {
-      cancelAnimationFrame(rafId);
       lenis.destroy();
     };
   }, []);
 
-  return null; // This component doesn't render anything
+  return null;
 };
 
 export default SmoothScroll;
+
