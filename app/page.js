@@ -1,6 +1,7 @@
 import About from "@home/About";
 import Banner from "@home/Banner";
 import Blogs from "@home/Blogs";
+import Brochure from "@home/Brochure";
 import FuelYourDay from "@home/FuelYourDay";
 import MarqueeComponent from "@home/Marquee";
 import PelliniDetails from "@home/PelliniDetails";
@@ -21,6 +22,7 @@ export default function Home() {
       <About />
       <Testimonial />
       <Blogs />
+      <Brochure/>
     </>
   );
 }
