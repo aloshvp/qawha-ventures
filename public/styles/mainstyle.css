@@ -24,6 +24,7 @@
 .headerWrap.scrolled .talkWithUsIcon{position: absolute;bottom: 10px;left: -15px;}
 
 /*Footer*/
+.footerWrap{padding: 80px 0 40px;background: #000;color: var(--yellow);}
 .footerContent{display: flex;gap: 120px;padding-bottom: 60px;}
 .footerLogoSec{display: flex;gap: 30px;}
 .footerContactSec { display: grid; grid-template-columns: repeat(4, 1fr); grid-template-rows: repeat(2, 1fr); gap:40px 120px;width: 100%;} 
