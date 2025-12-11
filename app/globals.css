@@ -23,29 +23,53 @@ b {
   font-weight: 700;
 }
 
-  .container{width:100%;margin-right:auto;margin-left:auto;padding-right:1rem;padding-left:1rem}
-  *{margin:0;padding:0;box-sizing:border-box}
-  ul,ol{list-style:none}
-  a,a:focus, a:active{text-decoration:none;color:inherit; -webkit-tap-highlight-color: transparent;outline: none;}
-  body{font-family: var(--font-poppins), sans-serif;font-weight: 400;color:#000;background-color:#fff}
-  img{max-width:100%;height:auto;display:block}
-  button{background:none;border:none;cursor:pointer;font:inherit}
-  table{border-collapse:collapse;border-spacing:0}
-  h1,h2,h3,h4,h5,h6{font-weight:normal;margin:0}
-  p{margin:0}
-  p>em{display:block}
-  input,input:focus,input:active,input:focus-visible{outline:none!important;box-shadow:none!important}
-  select:focus,select:active,select:focus-visible{outline:none;box-shadow:none}
-  html{scroll-behavior:smooth}
-  /* Custom Scrollbar - Black Theme */
-  ::-webkit-scrollbar{width:12px;height:12px}
-  ::-webkit-scrollbar-track{background:#1a1a1a;border-radius:6px}
-  ::-webkit-scrollbar-thumb{background:#333;border-radius:6px;border:2px solid #1a1a1a;transition:background .3s ease}
-  ::-webkit-scrollbar-thumb:hover{background:#555}
-  ::-webkit-scrollbar-thumb:active{background:#777}
-  ::-webkit-scrollbar-corner{background:#1a1a1a}
-  *{scrollbar-width:thin;scrollbar-color:#333 #1a1a1a}
+.container{width:100%;margin-right:auto;margin-left:auto;padding-right:1rem;padding-left:1rem}
+*{margin:0;padding:0;box-sizing:border-box}
+ul,ol{list-style:none}
+a,a:focus, a:active{text-decoration:none;color:inherit; -webkit-tap-highlight-color: transparent;outline: none;}
+body{font-family: var(--font-poppins), sans-serif;font-weight: 400;color:#000;background-color:#fff}
+img{max-width:100%;height:auto;display:block}
+button{background:none;border:none;cursor:pointer;font:inherit}
+table{border-collapse:collapse;border-spacing:0}
+h1,h2,h3,h4,h5,h6{font-weight:normal;margin:0}
+p{margin:0}
+p>em{display:block}
+input,input:focus,input:active,input:focus-visible{outline:none!important;box-shadow:none!important}
+select:focus,select:active,select:focus-visible{outline:none;box-shadow:none}
+html{scroll-behavior:smooth}
+/* Custom Scrollbar - Black Theme */
+::-webkit-scrollbar{width:12px;height:12px}
+::-webkit-scrollbar-track{background:#1a1a1a;border-radius:6px}
+::-webkit-scrollbar-thumb{background:#333;border-radius:6px;border:2px solid #1a1a1a;transition:background .3s ease}
+::-webkit-scrollbar-thumb:hover{background:#555}
+::-webkit-scrollbar-thumb:active{background:#777}
+::-webkit-scrollbar-corner{background:#1a1a1a}
+*{scrollbar-width:thin;scrollbar-color:#333 #1a1a1a}
 
+
+/*Footer*/
+.footerWrap{padding: 80px 0 40px;background: #000;color: var(--yellow);}
+.footerContent{display: flex;gap: 120px;padding-bottom: 60px;}
+.footerLogoSec{display: flex;gap: 30px;}
+.footerLogoSec .qahwaVenturesLogo{}
+.footerLogoSec .pelliniLogo{}
+.footerLinkWrap{display: flex;width: 100%;justify-content: space-between;}
+.footerLinkNav > li > a{display: block;font-size: 18px;line-height: 1em;margin-bottom: 15px;}
+.footerLinkNav > li:last-child > a{margin-bottom: 0;}
+.footerContactDetails{display: flex;gap: 60px;justify-content: space-between;}
+.addressSec > p{font-size: 18px;line-height: 1.8em;}
+.addressSec > p > em{font-style: normal;display: block;}
+.phoneSec{display: flex;flex-direction: column;justify-content: space-between;}
+.phoneSec > a{font-size: 18px;line-height: 1em;}
+.socialMediaLinks{display: flex;gap: 25px;}
+.footerBottomSec{display: flex;justify-content: space-between;color: var(--yellow);padding-top: 25px;border-top: 1px solid var(--yellow);}
+.footerBottomSec > span{font-size: 16px;line-height: 1em;}
+.footerBottomSec > em{display: block;font-style: normal;font-size: 14px;line-height: 1em;}
+
+
+.footerContactSec { display: grid; grid-template-columns: repeat(4, 1fr); grid-template-rows: repeat(2, 1fr); gap:40px 120px;width: 100%;} 
+.footerLinkSec { grid-row: span 2 / span 2; } 
+.newsletterSec { grid-column: span 3 / span 3; grid-column-start: 2; }
   
 @media screen and (min-width: 1800px) {
 }

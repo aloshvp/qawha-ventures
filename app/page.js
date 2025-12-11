@@ -1,3 +1,4 @@
+import Footer from "@common/Footer";
 import About from "@home/About";
 import Banner from "@home/Banner";
 import Blogs from "@home/Blogs";
@@ -22,7 +23,8 @@ export default function Home() {
       <About />
       <Testimonial />
       <Blogs />
-      <Brochure/>
+      <Brochure />
+      <Footer />
     </>
   );
 }
