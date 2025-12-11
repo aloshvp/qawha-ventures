@@ -124,7 +124,8 @@ const Footer = () => {
                                         src="/images/common/facebook.png"
                                         width={9}
                                         height={19}
-                                        alt="facebook">
+                                        alt="facebook"
+                                        className='socailMediaLogo'>
                                     </Image>
                                 </Link>
                                 <Link href="" scroll={false}>
@@ -132,7 +133,8 @@ const Footer = () => {
                                         src="/images/common/instagram.png"
                                         width={20}
                                         height={20}
-                                        alt="instagram">
+                                        alt="instagram"
+                                        className='socailMediaLogo'>
                                     </Image>
                                 </Link>
                                 <Link href="" scroll={false}>
@@ -140,7 +142,8 @@ const Footer = () => {
                                         src="/images/common/linkedin.png"
                                         width={20}
                                         height={20}
-                                        alt="linkedin">
+                                        alt="linkedin"
+                                        className='socailMediaLogo'>
                                     </Image>
                                 </Link>
                                 <Link href="" scroll={false}>
@@ -148,7 +151,8 @@ const Footer = () => {
                                         src="/images/common/youtube.png"
                                         width={29}
                                         height={20}
-                                        alt="youtube">
+                                        alt="youtube"
+                                        className='socailMediaLogo'>
                                     </Image>
                                 </Link>
                             </div>
@@ -156,7 +160,10 @@ const Footer = () => {
                         <div className="newsletterSec">
                             <span>Newsletter</span>
                             <h5>Stay in Touch</h5>
-                            <input type="text" placeholder='Enter Email Address' />
+                            <div className='newsletterInput'>
+                                <input type="email" placeholder='Enter Email Address' />
+                                <Link href="" scroll={false}>GO</Link>
+                            </div>
                         </div>
 
                     </div>
