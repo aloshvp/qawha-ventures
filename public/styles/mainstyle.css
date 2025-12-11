@@ -1,17 +1,27 @@
 /*Header*/
-.headerWrap{position: fixed;top: 0;left: 0;width: 100%;z-index: 999;color: var(--yellow);background: linear-gradient( to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0) );padding: 10px 0;}
-.headerWrap.scrolled{backdrop-filter:blur(2px);padding: 0;}
+.headerWrap{position: fixed;top: 0;left: 0;width: 100%;z-index: 999;color: var(--yellow);background: linear-gradient( to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0) );}
+.headerWrap.scrolled{backdrop-filter:blur(2px);}
 .headerWrap > .container{width:100%}
-.headerSec{display:flex;align-items:center;justify-content:space-between}
-.headerNavLinks ul{display:flex;gap:90px;align-items:center;transition:gap .3s ease}
-.headerWrap.scrolled .headerNavLinks ul{gap:60px}
-.headerLogo{max-width: 130px;}
-.headerWrap.scrolled .headerLogo{transform:scale(0.75);transition:all .3s ease}
-.hamburger{display:flex;flex-direction:column;justify-content:center;gap:9px;cursor:pointer}
+.headerSec{display:flex;justify-content:space-between;padding: 35px 0 0;height: 135px;}
+.headerWrap.scrolled .headerSec{padding: 30px 0 0;height: 100px;}
+.navLinksList{display:flex;gap:90px;transition:gap .3s ease;height: 100px;}
+.headerWrap.scrolled .headerNavLinks .navLinksList{gap:60px;height: 60px;}
+.navLinksList > li{display: block;}
+.navLinksList > li > a{font-size: 20px;line-height: 1em;}
+.homeLink{position: relative;}
+.homeLink::before{content:"";position: absolute;top: -15px;left: 50%;transform: translateX(-50%);background-image: url(/images/common/home-icon.png);background-repeat: no-repeat;background-position: center center;width: 20px;height: 20px;}
+.headerLogoSec{position: relative;}
+.headerLogo > img{max-width: 120px;position: relative;top: -25px;}
+.headerWrap.scrolled .headerLogo > img{transform:scale(0.75);transition:all .3s ease;top:-40px}
+.hamburger{display:flex;flex-direction:column;gap:9px;cursor:pointer}
 .hamburger span{display:block;width:30px;height:2px;background:var(--yellow);transition:all .3s ease}
 .hamburger span.mrgnLft{margin-left:8px;}
 .headerWrap.scrolled .hamburger span{width:24px}
-.talkWithUsSec span{color:var(--yellow);font-weight:500}
+.talkWithUsSec{width: 38px;position: relative;}
+.talkWithUsSec span{font-size: 18px;line-height: 1.4em;font-weight:500;text-align: right;display: block;}
+.talkWithUsIcon{position: absolute;bottom: 30px;left: -15px;}
+.headerWrap.scrolled .talkWithUsSec span{font-size: 16px;line-height: 1.3em;}
+.headerWrap.scrolled .talkWithUsIcon{position: absolute;bottom: 10px;left: -15px;}
 
 /*Footer*/
 .footerContent{display: flex;gap: 120px;padding-bottom: 60px;}
