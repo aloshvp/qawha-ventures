@@ -2,6 +2,7 @@ import { Poppins } from "next/font/google";
 import "./globals.css";
 import "@styles/mainbundle.scss";
 import SmoothScroll from "@common/SmoothScroll";
+import ClientLayoutWrapper from "@common/ClientLayoutWrapper";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -19,7 +20,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={poppins.variable}>
         <SmoothScroll />
-        {children}
+        <ClientLayoutWrapper>
+          {children}
+        </ClientLayoutWrapper>
       </body>
     </html>
   );
