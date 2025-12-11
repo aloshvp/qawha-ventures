@@ -17,8 +17,8 @@
 .hamburger span{display:block;width:30px;height:2px;background:var(--yellow);transition:all .3s ease}
 .hamburger span.mrgnLft{margin-left:8px;}
 .headerWrap.scrolled .hamburger span{width:24px}
-.talkWithUsSec{width: 38px;position: relative;}
-.talkWithUsSec span{font-size: 18px;line-height: 1.4em;font-weight:500;text-align: right;display: block;}
+.talkWithUsSec{width: 38px;position: relative;transition:all .3s ease}
+.talkWithUsSec span{font-size: 18px;line-height: 1.4em;font-weight:500;text-align: right;display: block;transition:all .3s ease}
 .talkWithUsIcon{position: absolute;bottom: 30px;left: -15px;}
 .headerWrap.scrolled .talkWithUsSec span{font-size: 16px;line-height: 1.3em;}
 .headerWrap.scrolled .talkWithUsIcon{position: absolute;bottom: 10px;left: -15px;}
