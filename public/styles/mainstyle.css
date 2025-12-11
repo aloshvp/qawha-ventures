@@ -11,8 +11,8 @@
 .homeLink{position: relative;}
 .homeLink::before{content:"";position: absolute;top: -15px;left: 50%;transform: translateX(-50%);background-image: url(/images/common/home-icon.png);background-repeat: no-repeat;background-position: center center;width: 20px;height: 20px;}
 .headerLogoSec{position: relative;}
-.headerLogo > img{max-width: 120px;position: relative;top: -25px;}
-.headerWrap.scrolled .headerLogo > img{transform:scale(0.75);transition:all .3s ease;top:-40px}
+.headerLogo > img{max-width: 120px;position: relative;top: -25px;transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);}
+.headerWrap.scrolled .headerLogo > img{transform:scale(0.75);top:-40px}
 .hamburger{display:flex;flex-direction:column;gap:9px;cursor:pointer}
 .hamburger span{display:block;width:30px;height:2px;background:var(--yellow);transition:all .3s ease}
 .hamburger span.mrgnLft{margin-left:8px;}
