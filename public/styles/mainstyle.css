@@ -141,6 +141,21 @@
 .aboutContentRght{display: flex;align-items: flex-end;}
 .aboutContentRght > p{font-size: 18px;line-height: 1.6em;max-width: 510px;margin-right: 60px;}
 
+/*faq*/
+.faqWrap{padding: 100px 0;background: #43291C;}
+.faqItem{margin-bottom:40px;color: var(--yellow);border-bottom:1px solid var(--yellow);padding: 0 0 30px 0;position:relative;}
+.faqTitle{font-size:60px;font-weight:700;margin-bottom:10px;cursor:pointer;display:flex;justify-content:flex-start;align-items:center;transition:all 0.3s ease;}
+.faqTitle:hover{color:var(--yellow);}
+.faqTitle.active{color:var(--yellow);}
+.faqToggle{position:absolute;right:0;top:50%;transform:translateY(-50%);transition:transform 0.3s ease;display:flex;align-items:center;}
+.faqToggle img{transition:transform 0.3s ease;cursor:pointer;}
+.faqToggle img:hover{transform:scale(1.1);}
+.faqContent{max-height:0;overflow:hidden;transition:max-height 0.5s ease, opacity 0.3s ease;opacity:0;margin-right: 60px;}
+.faqContent.active{max-height:500px;opacity:1;}
+.faqDesc{font-size:18px;opacity:.9;margin-bottom:20px;line-height: 1.5em;}
+.faqLink{display:inline-block;font-weight:600;transition:.3s ease;font-size:18px;}
+.faqLink:hover{color:var(--yellow);}
+
 /*Testimonial*/
 .testimonialWrap{padding: 100px 0;background: #151412;}
 .testimonialHead{display: flex;justify-content: space-between;align-items: center;color: var(--yellow);margin-bottom: 120px;}
