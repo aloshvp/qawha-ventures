@@ -44,18 +44,35 @@
 
 @media screen and (min-width: 1300px) {
 
-
-
 }
 
 @media screen and (max-width: 1200px) {
-    
+
+    /*header*/
+    .navLinksList > li > a{font-size: 18px;}
+    .talkWithUsSec span{font-size: 16px;}
+    .headerLogo > img{max-width: 100px;}
+    .headerWrap.scrolled .headerLogo > img {top: -35px;}
+
     /*Footer*/
     .footerContactSec {grid-template-columns: repeat(2, 1fr);}
     .newsletterSec {grid-column: auto;}
     .footerContactSec{gap: 40px 80px;}
     .socialMediaLinksSec,.phoneSec{gap: 25px;}
-                                              
+
+}
+
+@media screen and (max-width: 1024px) {
+
+    /*header mobile menu*/
+    .headerNavLinks {display: none;}
+    .hamburger.active span:nth-child(1) {transform: rotate(45deg) translate(5px, 5px);}
+    .hamburger.active span:nth-child(2) {opacity: 0;}
+    .hamburger.active span:nth-child(3) { transform: rotate(-45deg) translate(7px, -6px);}
+    .talkWithUsSec{width: 120px;display: flex;align-items: center;justify-content: center;}
+    .headerWrap.scrolled .headerSec{height: 60px;padding: 25px 0 0;}
+    .talkWithUsIcon{bottom: 5px;left: -18px;}
+
 }
 
 

@@ -7,6 +7,7 @@ import useWindowSize from "@components/functions/useWindowSize";
 const Header = () => {
     const { width } = useWindowSize();
     const [isScrolled, setIsScrolled] = useState(false);
+    const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
     useEffect(() => {
         const handleScroll = () => {
@@ -18,12 +19,16 @@ const Header = () => {
         return () => window.removeEventListener("scroll", handleScroll);
     }, []);
 
+    const toggleMobileMenu = () => {
+        setIsMobileMenuOpen(!isMobileMenuOpen);
+    };
+
     return (
         <>
-            <header className={`headerWrap ${isScrolled ? "scrolled" : ""}`}>
+            <header className={`headerWrap ${(width <= 1024 || isScrolled) ? "scrolled" : ""}`}>
                 <div className="container">
                     <div className="headerSec">
-                        <div className="hamburger">
+                        <div className={`hamburger ${isMobileMenuOpen ? 'active' : ''}`} onClick={toggleMobileMenu}>
                             <span className="mrgnLft"></span>
                             <span></span>
                             <span className="mrgnLft"></span>
@@ -65,6 +70,29 @@ const Header = () => {
                     </div>
                 </div>
             </header>
+
+            {/* Mobile Sidebar */}
+            <div className={`mobileSidebar ${isMobileMenuOpen ? 'active' : ''}`}>
+                <div className="sidebarOverlay" onClick={toggleMobileMenu}></div>
+                <div className="sidebarContent">
+                    <div className="sidebarHeader">
+                        <button className="closeSidebar" onClick={toggleMobileMenu}>
+                            <span></span>
+                            <span></span>
+                        </button>
+                    </div>
+                    <nav className="sidebarNav">
+                        <ul className="sidebarNavList">
+                            <li><Link href="/" className="homeLink" onClick={toggleMobileMenu}>Home</Link></li>
+                            <li><Link href="" scroll={false} onClick={toggleMobileMenu}>About Us</Link></li>
+                            <li><Link href="" scroll={false} onClick={toggleMobileMenu}>Products</Link></li>
+                            <li><Link href="" scroll={false} onClick={toggleMobileMenu}>Specialities</Link></li>
+                            <li><Link href="" scroll={false} onClick={toggleMobileMenu}>Career</Link></li>
+                            <li><Link href="" scroll={false} onClick={toggleMobileMenu}>Contact Us</Link></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
 
             {isScrolled && (
                 <div className="whatsappBtnWrap">
