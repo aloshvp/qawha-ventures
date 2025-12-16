@@ -4,8 +4,8 @@
 .headerWrap > .container{width:100%}
 .headerSec{display:flex;justify-content:space-between;padding: 35px 0 0;height: 135px;}
 .headerWrap.scrolled .headerSec{padding: 30px 0 0;height: 100px;}
-.navLinksList{display:flex;gap:90px;transition:gap .3s ease;height: 100px;}
-.headerWrap.scrolled .headerNavLinks .navLinksList{gap:60px;height: 60px;}
+.navLinksList{display:flex;gap:50px;transition:gap .3s ease;height: 100px;}
+.headerWrap.scrolled .headerNavLinks .navLinksList{gap:40px;height: 70px;}
 .navLinksList > li{display: block;}
 .navLinksList > li > a{font-size: 20px;line-height: 1em;}
 .homeLink{position: relative;}
@@ -13,7 +13,7 @@
 .headerLogoSec{position: relative;}
 .headerLogo > img{max-width: 120px;position: relative;top: -25px;transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);}
 .headerWrap.scrolled .headerLogo > img{transform:scale(0.75);top:-40px}
-.hamburger{display:flex;flex-direction:column;gap:9px;cursor:pointer}
+.hamburger{display:flex;flex-direction:column;gap:9px;cursor:pointer;height: max-content;}
 .hamburger span{display:block;width:23px;height:2px;background:var(--yellow);transition:all .3s ease}
 .hamburger span.mrgnLft{margin-left:10px;}
 .headerWrap.scrolled .hamburger span{width:23px}
@@ -31,9 +31,11 @@
 
 /*Footer*/
 .footerWrap{padding: 100px 0 45px;background: #000;color: var(--yellow);}
-.footerContent{display: flex;gap: 120px;padding-bottom: 75px;}
+.footerContent{display: flex;gap: 60px;padding-bottom: 75px;}
 .footerLogoSec{display: flex;gap: 30px;}
-.footerContactSec { display: grid; grid-template-columns: repeat(4, 1fr); grid-template-rows: repeat(2, 1fr); gap:40px 120px;width: 100%;} 
+/* .footerLogoSec .qahwaVenturesLogo > img{max-width: 80px;}
+.footerLogoSec .pelliniLogo > img{max-width: 120px;} */
+.footerContactSec { display: grid; grid-template-columns: repeat(4, 1fr); grid-template-rows: repeat(2, 1fr); gap:60px 30px;width: 100%;} 
 .footerLinkSec { grid-row: span 2 / span 2; } 
 .newsletterSec { grid-column: span 3 / span 3; grid-column-start: 2; }
 .footerLinkWrap{display: flex;width: 100%;justify-content: space-between;}
@@ -43,9 +45,9 @@
 .footerContactDetails{display: flex;gap: 60px;justify-content: space-between;}
 .addressSec > p{font-size: 18px;line-height: 1.8em;}
 .addressSec > p > em{font-style: normal;display: block;}
-.phoneSec{display: flex;flex-direction: column;justify-content: space-between;}
+.phoneSec{display: flex;flex-direction: column;gap: 40px;}
 .phoneSec > a{font-size: 18px;line-height: 1em;}
-.socialMediaLinksSec{display: flex;flex-direction: column;justify-content: space-between;}
+.socialMediaLinksSec{display: flex;flex-direction: column;gap: 40px;}
 .socialMediaLinksSec > span{font-size: 18px;line-height: 1em;font-weight: 500;}
 .socialMediaLinks{display: flex;gap: 25px;}
 .socialMediaLinks > a .socailMediaLogo{transition: all 0.5s ease;}
@@ -107,7 +109,7 @@
 .pelliniDetailsWrap{position:relative;height:857px;display:flex;align-items:center;padding: 120px 0;}
 .pelliniDetailsBg{object-fit:cover;object-position:center;z-index:1;}
 .pelliniDetailsWrap > .container{height: 100%;}
-.pelliniDetailsContent{height:100%;z-index: 3; position: relative; display: flex;justify-content: space-between;padding-right: 160px;color: var(--yellow);}
+.pelliniDetailsContent{height:100%;z-index: 3; position: relative; display: flex;justify-content: space-between;color: var(--yellow);}
 .pelliniDetailsLft > h3{font-size:45px;line-height:1.3em;font-weight: 400;}
 .pelliniDetailsLft > h3 > em{display: block;}
 .pelliniDetailsLft > h3{font-size:45px;line-height:1.3em}
@@ -116,8 +118,8 @@
 .pelliniDetailsRght > p{font-size:18px;line-height:1.6em;}  
 
 /*marquee*/
-.marqueeWrap{background:#151412;padding:80px 0;}
-.marqueeItem span{font-size: 160px;font-weight: 700;opacity: 35%;color: #151412;fill: #151412;-webkit-text-stroke: 1px #fff;}
+.marqueeWrap{background:#151412;padding:60px 0;}
+.marqueeItem span{font-size: 120px;font-weight: 700;opacity: 35%;color: #151412;fill: #151412;-webkit-text-stroke: 1px #fff;}
 
 /*Product slider*/
 .productSwiper{background: linear-gradient(to bottom, #1a1a1a 0%, #000000 100%);}
@@ -132,7 +134,7 @@
 .productInfo > span{font-size: 25px;line-height: 1em;display: block;margin: 25px 0 40px;}
 .productInfo > a{padding: 20px 30px;border: 1px solid #42281B;background: #42281B;border-radius: 50px;display: inline-flex;gap: 10px;align-items: center;transition: all 0.3s ease;}
 .productInfo > a:hover{background: transparent;border: 1px solid #42281B;}
-.productSwiper .swiper-button-next,.productSwiper .swiper-button-prev{position:absolute;bottom:65px;width:40px;height:40px;background:transparent;border:none;cursor:pointer;z-index:10;transition:transform .3s ease}
+.productSwiper .swiper-button-next,.productSwiper .swiper-button-prev{position:absolute;bottom:90px;width:40px;height:40px;background:transparent;border:none;cursor:pointer;z-index:10;transition:transform .3s ease}
 .productSwiper .swiper-button-prev{left:calc(50% - 30px)}
 .productSwiper .swiper-button-next{left:calc(50% + 30px)}
 .productSwiper .swiper-button-next::after,.productSwiper .swiper-button-prev::after{content:'';display:block;width:45px;height:45px;background-size:contain;background-repeat:no-repeat;background-position:center}
@@ -207,8 +209,8 @@
 .blogItem:hover .blogImg img{transform:scale(1.05);}
 
 /*Brochure*/
-.BrochureWrap{background: #000;position: relative;height: 275px;}
-.BrochureBg{object-fit:cover;object-position:center;z-index:1;}
-.BrochureContent { color: #fff; z-index: 3; text-align: center; max-width: 445px;position: absolute; top: 50%; right: 0; transform: translate(-50%, -50%); }
+.BrochureWrap{background: #000;position: relative;}
+.BrochureBg{object-fit:cover;object-position:center;z-index:1;height: 275px;}
+.BrochureContent { color: #fff; z-index: 3; text-align: center; max-width: 420px;position: absolute; top: 50%; right: -150px; transform: translate(-50%, -50%); }
 .BrochureContent > p{font-size: 18px;line-height: 1.6em;margin: 0 0 35px;}
 .BrochureContent > a{border-radius: 30px;font-size: 18px;padding: 18px 28px;background: #000;display: inline-block;}

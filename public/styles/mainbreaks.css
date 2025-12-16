@@ -1,16 +1,46 @@
 @media screen and (min-width: 1800px) {
 
+    /*Footer*/
+    .footerContactSec { gap:40px 120px;} 
+    .footerContent{gap: 120px;}
+
 }
 
 @media screen and (min-width: 1600px) {
+
+    /*Header*/
+    .navLinksList{gap:90px;}
+
+    /*Footer*/
+    .phoneSec{justify-content: space-between;}
+    .socialMediaLinksSec{justify-content: space-between;}
+
+
+    /*Pellini Details*/
+    .pelliniDetailsContent{padding-right: 160px;}
+
+    /*Brochure*/
+    .BrochureContent {right: 0px; }
+
    
 }
 
 @media screen and (min-width: 1440px) {
+    /*Header*/
+    .navLinksList{gap:60px;}
+    .headerWrap.scrolled .headerNavLinks .navLinksList{gap:50px;}
 
+    /*marquee*/
+    .marqueeWrap{padding:80px 0;}
+    .marqueeItem span{font-size: 160px;}
+
+    /*Brochure*/
+    .BrochureContent {max-width: 445px;}
 }
 
 @media screen and (min-width: 1300px) {
+
+
 
 }
 
