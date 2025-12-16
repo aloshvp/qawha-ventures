@@ -78,10 +78,14 @@
 
 @media only screen and (max-width: 991px) {
 
+    /*header*/
+    .whatsappBtnWrap{right: 25px;}
+
     /*banner*/
     .bannerContent h1{margin-bottom: 25px;}
     .bannerContent p{margin: 0 auto;padding: 0 65px;}
     .bannerSlide{height:750px;}
+    .bannerWrapper .swiper-pagination{right:25px!important;} 
 
     /*who we are*/
     .whoWeAreWrap{height: 750px;padding: 80px 0;}
@@ -90,7 +94,7 @@
     .whoWeAreImages .imageLeft, .whoWeAreImages .imageRight{min-width: 220px;}
 
     /*fuel your day*/
-    .fuelYourDayWrap{height: 750px;padding:80px 0;}
+    .fuelYourDayWrap{height: 750px;padding:80px 0;border: 25px solid #42281b;}
     .fuelYourDayTop span{font-size: 24px;}
     .fuelYourDayTop h3{font-size: 48px;}
 
@@ -139,12 +143,80 @@
 }
 
 @media only screen and (max-width: 767px) {  
-    
-    /*blogs*/
-    .blogsBody{grid-template-columns: repeat(1, 1fr);}
-    .footerContactSec{display: flex;flex-direction: column;}
 
+    /*header*/
+    .whatsappBtnWrap{right: 15px;}
+    .headerWrap.scrolled .talkWithUsSec span{font-size: 14px;}
+    .headerWrap.scrolled .headerSec { height: 45px; padding: 20px 0 0; }
+    .hamburger{gap: 7px;}
+    .headerWrap.scrolled .talkWithUsIcon{width: 18px;height: 18px;left: 0px;bottom: 5px;}
+    .talkWithUsSec{align-items: flex-start;}
+    .sidebarContent{width: 350px;max-width: 85vw;}
+
+    /*banner*/
+    .bannerContent .img{max-width: 80%;}    
+    .bannerWrapper .swiper-pagination{right:15px!important;}  
+    .bannerContent p{padding: 0 25px;}  
+    .bannerContent h1 { margin-bottom: 15px; }
+    .bannerSlide{height:650px;}
+
+    /*who we are*/
+    .whoWeAreWrap{height: 650px;padding: 60px 0;}
+    .whoWeAreTop h2 { margin-bottom: 20px; font-size: 40px; }
+    .whoWeAreContent{height: calc(650px - 120px);}  
     .whoWeAreImages .imageLeft, .whoWeAreImages .imageRight{min-width: 100px;}
+    
+    /*fuel your day*/
+    .fuelYourDayWrap{height: 650px;padding: 40px 0;}
+    .fuelYourDayTop em{height: 30px;font-size: 60px;}
+    .fuelYourDayTop span{font-size: 20px;}
+    .fuelYourDayTop h3{font-size: 40px;}
+    .fuelYourDayBottom p{font-size: 24px;}
+
+    /*Pellini Details*/
+    .pelliniDetailsWrap{height: 650px;padding: 60px 0;}
+    .pelliniDetailsLft > h3{font-size: 35px;}
+    .pelliniDetailsLft > h3 > em{display: inline-block;}
+    .pelliniDetailsContent{gap: 40px;}
+    .pelliniDetailsRght > em > img {max-width: 160px;}
+    .pelliniDetailsRght > span { margin: 30px 0 20px;font-size: 22px; }
+    .pelliniDetailsRght > p{font-size: 16px;}
+
+    /*about*/
+    .aboutWrap{height: 650px;padding: 60px 0;}
+    .aboutContentLft > h3{font-size: 30px;}
+    .aboutContentRght > p{font-size: 16px;}
+
+    /*faq*/
+    .faqWrap{padding: 60px 0;}
+    .faqTitle {font-size: 25px;}
+    .faqDesc{font-size: 16px;}
+    .faqToggle > img{width: 30px;height: 30px;}
+    .faqItem {margin-bottom: 25px;padding: 0 0 20px;}
+
+    /*testimonial*/
+    .testimonialWrap{padding: 60px 0;}
+    .testimonialTitile > h3{font-size: 25px;}
+    .testimonialTitile > span{font-size: 16px;}
+    .testimonialBtn a {font-size: 16px;padding: 10px 20px;}
+    .testimonialContent{margin-bottom: 10px;}
+
+    /*blogs*/
+    .blogsWrap{padding: 60px 0;}
+    .blogsHead > h2{font-size: 40px;}
+    .blogsHead > span{font-size: 20px;margin-bottom: 4px;}
+    .blogsBody{grid-template-columns: repeat(1, 1fr);}
+    .blogItem > h5{font-size: 20px;min-height: auto;}
+    .blogItem > p{min-height: auto;margin: 10px 0 25px;}
+    .blogItem > a{font-size: 14px;}
+
+    /*footer*/
+    .footerContactSec{display: flex;flex-direction: column;}
+    .footerBottomSec{flex-direction: column;align-items: center;gap: 10px;padding-top: 25px;}
+    .footerContent{padding-bottom: 45px;}
+
+
+    
 }
 
 @media only screen and (max-width: 479px) { 
