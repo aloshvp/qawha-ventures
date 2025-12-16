@@ -48,10 +48,22 @@
 
 
 @media only screen and (max-width: 991px) {
+
+    /*footer*/
+    .footerContent{flex-direction: column;}  
+    
+    /*blogs*/
+    .blogsBody{grid-template-columns: repeat(2, 1fr);}
    
 }
 
-@media only screen and (max-width: 767px) {   
+@media only screen and (max-width: 767px) {  
+    
+    /*blogs*/
+    .blogsBody{grid-template-columns: repeat(1, 1fr);}
+    .footerContactSec{display: flex;flex-direction: column;}
+
+    .whoWeAreImages .imageLeft, .whoWeAreImages .imageRight{min-width: 100px;}
 }
 
 @media only screen and (max-width: 479px) { 
