@@ -36,6 +36,10 @@
 
     /*Brochure*/
     .BrochureContent {max-width: 445px;}
+
+    /*footer*/
+    .footerLogoSec{gap: 30px;}
+    .footerLogoSec{max-width: 100%;}
 }
 
 @media screen and (min-width: 1300px) {
@@ -44,10 +48,27 @@
 
 }
 
-@media screen and (max-width: 1200px) {}
+@media screen and (max-width: 1200px) {
+    
+    /*Footer*/
+    .footerContactSec {grid-template-columns: repeat(2, 1fr);}
+    .newsletterSec {grid-column: auto;}
+    .footerContactSec{gap: 40px 80px;}
+    .socialMediaLinksSec,.phoneSec{gap: 25px;}
+                                              
+}
 
 
 @media only screen and (max-width: 991px) {
+
+    /*Brochure*/
+    /* .BrochureBg{display: none;} */
+    .BrochureContent{right: 0%;}
+ 
+
+    /*Footer*/
+    .footerWrap{padding: 60px 0 35px;}
+    .footerContent{flex-direction: column;gap: 45px;}    
    
 }
 
