@@ -221,6 +221,14 @@
 
 @media only screen and (max-width: 479px) { 
 
+    /*testimonial*/
+    .testimonialHead{flex-direction: column;align-items: flex-start;gap: 30px;margin-bottom: 30px;}
+    .testimonialBtn a{font-size: 14px;padding: 8px 18px;}
+    .authorInfo h4{font-size: 18px;}
+    .testimonialText{font-size: 17px;}
+    .testimonialContent{margin-bottom: 0;}
+    .authorImg{width: 80px;height: 80px;}
+
 }
 
 @media only screen and (max-width: 320px) {
