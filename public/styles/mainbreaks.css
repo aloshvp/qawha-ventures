@@ -61,17 +61,63 @@
 
 @media only screen and (max-width: 991px) {
 
-    /*Brochure*/
-    /* .BrochureBg{display: none;} */
+    /*banner*/
+    .bannerContent h1{margin-bottom: 25px;}
+    .bannerContent p{margin: 0 auto;padding: 0 65px;}
+    .bannerSlide{height:750px;}
+
+    /*who we are*/
+    .whoWeAreWrap{height: 750px;padding: 80px 0;}
+    .whoWeAreContent{height: calc(750px - 160px);}    
+    .whoWeAreTop h2{font-size: 60px;margin-bottom: 25px;}    
+    .whoWeAreImages .imageLeft, .whoWeAreImages .imageRight{min-width: 220px;}
+
+    /*fuel your day*/
+    .fuelYourDayWrap{height: 750px;padding:80px 0;}
+    .fuelYourDayTop span{font-size: 24px;}
+    .fuelYourDayTop h3{font-size: 48px;}
+
+    /*Pellini Details*/
+    .pelliniDetailsWrap{padding:80px 0;height: 750px;}
+    .pelliniDetailsContent{flex-direction: column;justify-content: flex-start;gap: 100px;}
+    .pelliniDetailsLft{width: 100%;position: relative;}
+    .pelliniDetailsLft > em{position: absolute;top: 0;left: 0;}
+    .pelliniDetailsLft > em > img{max-width: 80%;}
+    .pelliniDetailsRght{width: 100%;max-width: 100%;}
+    .pelliniDetailsRght > em > img{max-width: 220px;}
+    .pelliniDetailsRght > span{margin: 40px 0 25px;}
+
+    /*marquee*/
+    .marqueeWrap{padding: 30px 25px;}
+    .marqueeItem span{font-size: 80px;}
+
+    /*Product slider*/
+
+    /*about*/
+    .aboutWrap{padding: 80px 0;height: 750px;}
+    .aboutContent{flex-direction: column;}
+    .aboutContentRght > p{max-width: 100%;margin: 0;}
+
+    /*faq*/
+    .faqWrap{padding: 80px 0 60px;}
+    .faqTitle{font-size: 36px;}
+    .faqItem{padding: 0 0 25px;margin-bottom: 30px;}
+
+    /*testimonial*/
+    .testimonialWrap{padding: 80px 0;}
+    .testimonialHead{margin-bottom: 40px;}
+    .testimonialAuthor{margin: 30px 0 0;}
+
+    /*Brochure*/    
     .BrochureContent{right: 0%;}
  
-
     /*Footer*/
     .footerWrap{padding: 60px 0 35px;}
     .footerContent{flex-direction: column;gap: 45px;}    
     
     /*blogs*/
-    .blogsBody{grid-template-columns: repeat(2, 1fr);}
+    .blogsWrap{padding: 80px 0;}
+    .blogsBody{grid-template-columns: repeat(2, 1fr);gap: 60px 30px;}
    
 }
 

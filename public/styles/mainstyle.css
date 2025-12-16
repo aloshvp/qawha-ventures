@@ -155,7 +155,7 @@
 /*faq*/
 .faqWrap{padding: 100px 0;background: #43291C;}
 .faqItem{margin-bottom:40px;color: var(--yellow);border-bottom:1px solid var(--yellow);padding: 0 0 30px 0;position:relative;}
-.faqTitle{font-size:60px;font-weight:700;margin-bottom:10px;cursor:pointer;display:flex;justify-content:flex-start;align-items:center;transition:all 0.3s ease;}
+.faqTitle{font-size:60px;font-weight:700;cursor:pointer;display:flex;justify-content:flex-start;align-items:center;transition:all 0.3s ease;margin: 0 0 10px 0;}
 .faqTitle:hover{color:var(--yellow);}
 .faqTitle.active{color:var(--yellow);}
 .faqToggle{position:absolute;right:0;top:50%;transform:translateY(-50%);transition:transform 0.3s ease;display:flex;align-items:center;}
