@@ -32,11 +32,11 @@ const Header = () => {
                         <div className="headerNavLinks">
                             <ul className="navLinksList">
                                 <li><Link href="/" className="homeLink">Home</Link></li>
-                                <li><Link href="">About Us</Link></li>
-                                <li><Link href="">Products</Link></li>
+                                <li><Link href="" scroll={false}>About Us</Link></li>
+                                <li><Link href="" scroll={false}>Products</Link></li>
 
                                 <li className="headerLogoSec">
-                                    <Link href="/" scroll={false} className="headerLogo">
+                                    <Link href="/" className="headerLogo">
                                         <Image
                                             src="/images/common/QahwaVentures-logo.png"
                                             width={163}
@@ -46,9 +46,9 @@ const Header = () => {
                                     </Link>
                                 </li>
 
-                                <li><Link href="">Specialities</Link></li>
-                                <li><Link href="">Career</Link></li>
-                                <li><Link href="">Contact Us</Link></li>
+                                <li><Link href="" scroll={false}>Specialities</Link></li>
+                                <li><Link href="" scroll={false}>Career</Link></li>
+                                <li><Link href="" scroll={false}>Contact Us</Link></li>
                             </ul>
                         </div>
 
