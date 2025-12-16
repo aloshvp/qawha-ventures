@@ -69,7 +69,7 @@ export const blogs = [
         image: "/images/home/blog-img1.png",
         date: "Sep 20, 2025",
         title: "A coffee maker is more than a gadget",
-        description: "A coffee maker is a precision-designed appliance created to brew coffee with consistency, convenience, and exceptional flavor.",
+        description: "A coffee maker is a precision-designed appliance created to brew coffee with",
         link: ""
     },
     {
@@ -77,7 +77,7 @@ export const blogs = [
         image: "/images/home/blog-img2.png",
         date: "Sep 15, 2025",
         title: "Importance of Coffee in Qatar",
-        description: "Coffee holds a deep cultural, social, and economic significance in Qatar. It is more than just a beverage—it is a symbol of hospitality, heritage, and connection.",
+        description: "Coffee holds a deep cultural, social, and economic significance in Qatar. It is more",
         link: ""
     },
     {
@@ -85,7 +85,7 @@ export const blogs = [
         image: "/images/home/blog-img3.png",
         date: "Sep 10, 2025",
         title: "Qatar World Coffee Expo 2025",
-        description: "While Arabic coffee remains a cultural staple, Qatar has also embraced Italian and international coffee trends, making cafés an integral part of modern social life. Coffee shops are now popular spaces for:",
+        description: "While Arabic coffee remains a cultural staple, Qatar has also embraced Italian and",
         link: ""
     },
     {
@@ -93,7 +93,7 @@ export const blogs = [
         image: "/images/home/blog-img4.png",
         date: "Sep 10, 2025",
         title: "Why is Lusail the City of the Future in Qatar?",
-        description: "Qatar’s booming economy and cosmopolitan population have created a strong demand for premium coffee experiences. Luxury coffee brands and specialty cafés contribute significantly to the food & beverage industry.",
+        description: "Qatar’s booming economy and cosmopolitan population have created a",
         link: ""
     }
 ]
