@@ -17,7 +17,7 @@ const Testimonial = () => {
                         <h3>What Our Clients Say</h3>
                     </div>
                     <div className='testimonialBtn'>
-                        <Link href="">View More</Link>
+                        <Link href="" scroll={false}>View More</Link>
                     </div>
                 </div>
             </div>
