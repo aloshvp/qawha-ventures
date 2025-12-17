@@ -18,7 +18,7 @@ const Brochure = () => {
                 <div className="BrochureContent">
                     <p>Download the Qahwa Ventures brochure to explore our authentic Italian coffee experience</p>
                     <Link href="" scroll={false}>
-                        <Image src="/images/home/download icon.png" alt="Download" width={13} height={13} />
+                        <Image src="/images/home/download-icon.png" alt="Download" width={13} height={13} />
                         Download Brochure
                     </Link>
                 </div>

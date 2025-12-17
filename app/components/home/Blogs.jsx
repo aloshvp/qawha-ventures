@@ -24,7 +24,10 @@ const Blogs = () => {
                             <span>{blog.date}</span>
                             <h5>{blog.title}</h5>
                             <p>{blog.description}</p>
-                            <Link href={blog.link} scroll={false}>Learn More</Link>
+                            <Link href={blog.link} scroll={false}>
+                                Learn More
+                                <Image src="/images/home/arrow-right.png" alt="Download" width={18} height={10} />
+                            </Link>
                         </div>
                     ))}
                 </div>
