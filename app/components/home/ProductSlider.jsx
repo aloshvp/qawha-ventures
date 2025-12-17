@@ -2,7 +2,6 @@
 import Image from 'next/image'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Navigation, Autoplay } from 'swiper/modules'
-import 'swiper/css'
 import Link from 'next/link';
 
 const ProductSlider = () => {
@@ -15,7 +14,7 @@ const ProductSlider = () => {
                 slidesPerView={1}
                 navigation
                 pagination={{ clickable: true }}
-                autoplay={{ delay: 4000, disableOnInteraction: false }}
+                autoplay={{ delay: 8000, disableOnInteraction: false }}
                 loop={true}
                 className="productSwiper"
             >
