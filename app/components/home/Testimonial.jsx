@@ -28,7 +28,7 @@ const Testimonial = () => {
                     slidesPerView={1}
                     centeredSlides={true}
                     pagination={{ clickable: true }}
-                    autoplay={{ delay: 5000, disableOnInteraction: false }}
+                    autoplay={{ delay: 9000, disableOnInteraction: false }}
                     loop={true}
                     breakpoints={{
                         768: {
