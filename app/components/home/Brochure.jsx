@@ -13,6 +13,7 @@ const Brochure = () => {
                 className='BrochureBg'
                 priority
             />
+            <div className="BrochureOverlay"></div>
             <div className="container">
                 <div className="BrochureContent">
                     <p>Download the Qahwa Ventures brochure to explore our authentic Italian coffee experience</p>

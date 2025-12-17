@@ -51,6 +51,8 @@
 
 @media screen and (min-width: 1300px) {
 
+    /*Brochure*/
+    .BrochureOverlay{display: none;}
 }
 
 @media screen and (max-width: 1200px) {
@@ -148,7 +150,8 @@
     .testimonialAuthor{margin: 30px 0 0;}
 
     /*Brochure*/    
-    .BrochureContent{right: 0%;}
+    .BrochureContent{right: unset;left: 50%;transform: translate(-50%,-50%);}
+    .BrochureContent > p {margin: 0 0 15px;}
  
     /*Footer*/
     .footerWrap{padding: 60px 0 35px;}
@@ -241,6 +244,10 @@
     .blogItem > p{min-height: auto;margin: 10px 0 25px;}
     .blogItem > a{font-size: 14px;}
 
+    /*Brochure*/    
+    .BrochureContent{width: 100%;}
+    .BrochureContent > a{font-size: 16px;padding: 14px 24px;}
+
     /*footer*/
     .footerContactSec{display: flex;flex-direction: column;}
     .footerBottomSec{flex-direction: column;align-items: center;gap: 10px;padding-top: 25px;}
@@ -284,6 +291,10 @@
 
     /*blog*/
     .blogItem > p{font-size: 16px;}
+    
+    /*Brochure*/  
+    .BrochureContent > p{font-size: 16px;margin: 0 15px 10px;}
+    .BrochureContent > a{font-size: 14px;}
 
     /*footer*/
     .footerWrap{padding: 60px 0 30px;}
