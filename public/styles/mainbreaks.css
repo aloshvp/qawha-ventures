@@ -220,7 +220,7 @@
     .productSwiper .swiper-button-next{left:calc(50% + 30px)}
 
     /*about*/
-    .aboutWrap{height: 650px;padding: 60px 0;}
+    .aboutWrap{height: 600px;padding: 60px 0;}
     .aboutContentLft > h3{font-size: 30px;}
     .aboutContentRght > p{font-size: 16px;}    
 
