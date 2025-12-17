@@ -87,7 +87,7 @@
 .bannerContent h1{display: flex;align-items: center;justify-content: center;margin-bottom: 50px;}
 .bannerContent .img{max-width:100%;height:auto;}
 .bannerContent p{font-size:18px;line-height:1.6;color: var(--yellow);}
-.bannerWrapper .swiper-pagination{position:absolute!important;right:60px!important;left:auto!important;z-index:100!important;display:flex!important;flex-direction:column!important;gap:10px!important;width:auto!important;height:100vh;justify-content: center;}
+.bannerWrapper .swiper-pagination{position:absolute!important;right:60px!important;left:auto!important;z-index:100!important;display:flex!important;flex-direction:column!important;gap:10px!important;width:auto!important;height:100%;justify-content: center;}
 .bannerWrapper .swiper-pagination-bullet{margin:0!important;width:15px!important;height:15px!important;background:transparent!important;transition:all .3s ease!important;border-radius:50%!important;border:1px solid #fff!important;position:relative!important;}
 .bannerWrapper .swiper-pagination-bullet::before{content:''!important;position:absolute!important;top:50%!important;left:50%!important;transform:translate(-50%,-50%)!important;width:3px!important;height:3px!important;border-radius:50%!important;opacity:1!important}
 .bannerWrapper .swiper-pagination-bullet::before{background:#fff!important;opacity:1!important;}
