@@ -185,20 +185,20 @@
     .bannerSlide{height:650px;}
 
     /*who we are*/
-    .whoWeAreWrap{height: 650px;padding: 60px 0;}
+    .whoWeAreWrap{height: 600px;padding: 60px 0;}
     .whoWeAreTop h2 { margin-bottom: 20px; font-size: 40px; }
-    .whoWeAreContent{height: calc(650px - 120px);}  
+    .whoWeAreContent{height: calc(600px - 120px);}  
     .whoWeAreImages .imageLeft, .whoWeAreImages .imageRight{min-width: 100px;}
     
     /*fuel your day*/
-    .fuelYourDayWrap{height: 650px;padding: 40px 0;}
+    .fuelYourDayWrap{height: 600px;padding: 40px 0;}
     .fuelYourDayTop em{height: 30px;font-size: 60px;}
     .fuelYourDayTop span{font-size: 20px;}
     .fuelYourDayTop h3{font-size: 40px;}
     .fuelYourDayBottom p{font-size: 24px;}
 
     /*Pellini Details*/
-    .pelliniDetailsWrap{height: 650px;padding: 60px 0;}
+    .pelliniDetailsWrap{height: 600px;padding: 60px 0;}
     .pelliniDetailsLft > h3{font-size: 35px;}
     .pelliniDetailsLft > h3 > em{display: inline-block;}
     .pelliniDetailsContent{gap: 40px;}
