@@ -140,9 +140,10 @@
     .aboutContentRght > p{max-width: 100%;margin: 0;}
 
     /*faq*/
-    .faqWrap{padding: 80px 0 60px;}
-    .faqTitle{font-size: 36px;}
-    .faqItem{padding: 0 0 25px;margin-bottom: 30px;}
+    .faqWrap{padding: 50px 0 60px;}
+    .faqTitle > h2{font-size: 36px;}
+    .faqItem{padding:30px 40px 30px 0;}
+    .faqToggle > img{width: 30px;height: 30px;}
 
     /*testimonial*/
     .testimonialWrap{padding: 80px 0;}
@@ -222,11 +223,13 @@
     .aboutContentRght > p{font-size: 16px;}    
 
     /*faq*/
-    .faqWrap{padding: 60px 0 45px;}
-    .faqTitle {font-size: 25px;}
-    .faqDesc{font-size: 16px;}
-    .faqToggle > img{width: 30px;height: 30px;}
-    .faqItem {margin-bottom: 25px;padding: 0 0 20px;}
+    .faqWrap{padding: 35px 0 60px;}
+    .faqTitle> h2 {font-size: 25px;line-height: 1.3em;}
+    .faqTitle{flex-direction: column;align-items: flex-start;gap: 10px;}
+    .faqTitle em{font-size: 16px;}
+    .faqDesc{font-size: 16px;margin-bottom: 15px;}
+    .faqToggle > img{width: 25px;height: 25px;}
+    .faqItem {padding: 25px 35px 25px 0;}
 
     /*testimonial*/
     .testimonialWrap{padding: 60px 0;}
@@ -290,7 +293,8 @@
     .aboutContentLft > h3{font-size: 28px;}
 
     /*faq*/
-    .faqTitle {font-size: 20px;}
+    .faqItem {padding: 20px 35px 20px 0;}
+    .faqTitle > h2 {font-size: 20px;}
     .faqLink {font-size: 14px;}
     .faqToggle > img{width: 20px;height:20px;}
 

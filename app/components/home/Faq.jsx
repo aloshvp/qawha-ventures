@@ -17,20 +17,25 @@ const Faq = () => {
                 <div className="faqBody">
                     {faqData?.map((item, index) => (
                         <div key={index} className="faqItem">
-                            <h2
-                                className={`faqTitle ${activeIndex === index ? 'active' : ''}`}
-                                onClick={() => toggleAccordion(index)}
-                            >
-                                {item.title}
-                                <span className="faqToggle">
-                                    <Image
-                                        src={activeIndex === index ? "/images/home/minus-circle.svg" : "/images/home/plus-circle.svg"}
-                                        alt={activeIndex === index ? "Collapse" : "Expand"}
-                                        width={38}
-                                        height={38}
-                                    />
-                                </span>
-                            </h2>
+                            <div className="faqTitle">
+                                <h2
+                                    className={`${activeIndex === index ? 'active' : ''}`}
+                                    onClick={() => toggleAccordion(index)}
+                                >
+                                    {item.title}
+                                    <span className="faqToggle">
+                                        <Image
+                                            src={activeIndex === index ? "/images/home/minus-circle.svg" : "/images/home/plus-circle.svg"}
+                                            alt={activeIndex === index ? "Collapse" : "Expand"}
+                                            width={38}
+                                            height={38}
+                                        />
+                                    </span>
+                                </h2>
+                                {item?.subtitle &&
+                                    <em> {item.subtitle}</em>
+                                }
+                            </div>
                             <div className={`faqContent ${activeIndex === index ? 'active' : ''}`}>
                                 <p className="faqDesc">{item.description}</p>
                                 <Link href={item.link} className="faqLink" scroll={false}>
