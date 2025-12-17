@@ -259,12 +259,25 @@
 
 @media only screen and (max-width: 479px) {
 
+    /*header*/
+    .sidebarHeader{padding: 20px 20px 5px;}
+    .sidebarNavList a{font-size: 16px;}
+    .sidebarNavList li{margin-bottom: 0;}
+
+
     /*banner*/
     .bannerContent p{font-size: 16px;}
 
     /*who we are*/
     .whoWeAreTop h2{font-size: 35px;}
     .whoWeAreTop p{font-size: 16px;}
+    .whoWeAreImages{gap: 80px;}
+
+    /*fuel your day*/
+    .fuelYourDayTop span{font-size: 18px;}
+    .fuelYourDayTop h3{font-size: 30px;}
+    .fuelYourDayBottom p{font-size: 20px;}
+    .fuelYourDayTop em { height: 25px; font-size: 50px; }
 
     /*Pellini Details*/
     .pelliniDetailsLft > h3{font-size: 28px;}
