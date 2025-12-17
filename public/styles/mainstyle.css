@@ -234,4 +234,4 @@
 .BrochureOverlay{position:absolute;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.6);z-index:2;}
 .BrochureContent { color: #fff; z-index: 3; text-align: center; max-width: 420px;position: absolute; top: 50%; right: -150px; transform: translate(-50%, -50%); }
 .BrochureContent > p{font-size: 18px;line-height: 1.6em;margin: 0 0 35px;}
-.BrochureContent > a{border-radius: 30px;font-size: 18px;padding: 18px 28px;background: #000;display: inline-block;}
+.BrochureContent > a{border-radius: 30px;font-size: 18px;padding: 18px 28px;display: inline-block;background: #470B01; background: linear-gradient(245deg, rgba(71, 11, 1, 1) 0%, rgba(235, 158, 1, 1) 100%);}
