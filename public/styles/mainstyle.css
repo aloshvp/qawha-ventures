@@ -41,7 +41,7 @@
 .sidebarNavList a:hover,.sidebarNavList .homeLink{color:#000}
 
 /*WhatsApp Button*/
-.whatsappBtnWrap{position: fixed;bottom: 60px;right: 60px;z-index: 1000;}
+.whatsappBtnWrap{position: fixed;bottom: 60px;right: 60px;z-index: 1000;border-radius: 50%;padding: 8px;background: rgba(191, 191, 191, 0.2); }
 .whatsappBtn{display: inline-block;width: 38px;height: 38px;display: flex;align-items: center;justify-content: center;transition: all 0.3s ease;}
 .whatsappBtn:hover{transform: scale(1.1);}
 .whatsappBtn img{width: 38px;height: 38px;}
