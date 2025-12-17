@@ -17,7 +17,7 @@
 .hamburger span{display:block;width:23px;height:2px;background:var(--yellow);transition:all .3s ease}
 .hamburger span.mrgnLft{margin-left:10px;}
 .headerWrap.scrolled .hamburger span{width:23px}
-.talkWithUsSec{width: 38px;position: relative;transition:all .3s ease}
+.talkWithUsSec{width: 38px;position: relative;transition:all .3s ease;cursor: pointer;}
 .talkWithUsSec span{font-size: 18px;line-height: 1.2em;font-weight:500;text-align: right;display: block;transition:all .3s ease}
 .talkWithUsIcon{position: absolute;bottom: 40px;left: -15px;}
 .headerWrap.scrolled .talkWithUsSec span{font-size: 16px;line-height: 1.3em;}
