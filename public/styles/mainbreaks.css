@@ -210,7 +210,7 @@
     .marqueeWrap{padding:25px 15px;}
 
     /*Product slider*/
-    .productContent{flex-direction: column;align-items: flex-start;gap: 35px;padding: 60px 0 140px;}
+    .productContent{flex-direction: column;gap: 35px;padding: 60px 0 140px;text-align: center;}
     .productTitle > h3{margin: 20px 0;}
     .productTitle > h3 > em{display: inline-block;}
     .productImageSec{margin: 0 auto;}
