@@ -28,7 +28,7 @@ const Footer = () => {
                     <div className='footerContactSec'>
                         <div className='footerLinkSec'>
                             <ul className='footerLinkNav'>
-                                <li><Link href="" scroll={false}>Home</Link></li>
+                                <li><Link href="/">Home</Link></li>
                                 <li><Link href="" scroll={false}>About Us</Link></li>
                                 <li><Link href="" scroll={false}>Products</Link></li>
                                 <li><Link href="" scroll={false}>Specialties</Link></li>
