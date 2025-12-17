@@ -298,7 +298,21 @@
 
     /*footer*/
     .footerWrap{padding: 60px 0 30px;}
+    .footerContent{padding-bottom: 30px;gap: 30px;}
+    .footerBottomSec{padding-top: 20px;}
     .footerBottomSec > span,.footerBottomSec > em{text-align: center;line-height: 1.2em;font-size: 14px;}
+    .footerContactSec{gap: 30px 60px;}
+    .footerLinkNav > li > a{font-size: 16px;margin-bottom: 16px;}
+    .addressSec > p {font-size: 16px;}
+    .addressSec > p > em{display: inline-block;}
+    .phoneSec > a{font-size: 16px;}
+    .newsletterSec > span{font-size: 16px;}
+    .socialMediaLinksSec, .phoneSec{gap: 15px;}
+    .socialMediaLinks{gap: 20px;}
+    .newsletterSec > h5{font-size: 20px;}
+    .newsletterInput{width: 100%;}
+    .socialMediaLinksSec > span{font-size: 16px;}
+    .newsletterInput > a{font-size: 14px;top: 10px;}
 
 }
 

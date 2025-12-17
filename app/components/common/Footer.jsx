@@ -41,7 +41,7 @@ const Footer = () => {
                             <p>
                                 <em> Al Muntazah, Street 840 </em>
                                 <em> Building 18, 1st Floor </em>
-                                <em> Office 102 Doha - Qatar</em>
+                                <em> Office 102 Doha - Qatar </em>
                             </p>
                         </div>
                         <div className="phoneSec">
