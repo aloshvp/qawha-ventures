@@ -1,18 +1,33 @@
 "use client";
+import React, { useRef } from 'react';
 import Image from 'next/image'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Navigation, Autoplay } from 'swiper/modules'
 import Link from 'next/link';
 
 const ProductSlider = () => {
+
+    const prevRef = useRef(null);
+    const nextRef = useRef(null);
+
     return (
         <section className='productSliderWrap'>
+
+            {/* Custom Nav Buttons */}
+            <div className="productSwiperSliderNav">
+                <div ref={prevRef} className="productSwiperSliderBtn productSwiperPrevBtn"></div>
+                <div ref={nextRef} className="productSwiperSliderBtn productSwiperNextBtn"></div>
+            </div>
 
             <Swiper
                 modules={[Navigation, Autoplay]}
                 spaceBetween={30}
                 slidesPerView={1}
                 navigation
+                onBeforeInit={(swiper) => {
+                    swiper.params.navigation.prevEl = prevRef.current;
+                    swiper.params.navigation.nextEl = nextRef.current;
+                }}
                 pagination={{ clickable: true }}
                 autoplay={{ delay: 8000, disableOnInteraction: false }}
                 loop={true}
