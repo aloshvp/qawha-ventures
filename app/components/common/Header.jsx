@@ -105,7 +105,7 @@ const Header = () => {
 
             {isScrolled && (
                 <div className="whatsappBtnWrap">
-                    <Link href="" target="_blank" rel="noopener noreferrer" className="whatsappBtn">
+                    <Link href="" target="_blank" rel="noopener noreferrer" className="whatsappBtn" scroll={false}>
                         <Image
                             src="/images/common/whatsapp.png"
                             width={38}
