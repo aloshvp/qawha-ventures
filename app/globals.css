@@ -1,4 +1,4 @@
-:root {--font-poppins: var(--font-poppins);--yellow:#CFC4AE;}
+:root {--font-poppins: var(--font-poppins);--font-inter: var(--font-inter);--yellow:#CFC4AE;}
 .container{width:100%;margin-right:auto;margin-left:auto;padding-right:1rem;padding-left:1rem}
 *{margin:0;padding:0;box-sizing:border-box}
 ul,ol{list-style:none}

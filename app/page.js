@@ -10,13 +10,15 @@ import PelliniDetails from "@home/PelliniDetails";
 import ProductSlider from "@home/ProductSlider";
 import Testimonial from "@home/Testimonial";
 import WhoWeAre from "@home/WhoWeAre";
+import BrandLegacy from "@home/BrandLegacy";
 
 
 export default function Home() {
   return (
     <>
       <Banner />
-      <WhoWeAre />
+      <BrandLegacy />
+      {/* <WhoWeAre /> */}
       <FuelYourDay />
       <PelliniDetails />
       <MarqueeComponent />

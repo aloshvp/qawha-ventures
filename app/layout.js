@@ -1,4 +1,4 @@
-import { Poppins } from "next/font/google";
+import { Poppins, Inter } from "next/font/google";
 import "./globals.css";
 import "@styles/mainbundle.scss";
 import SmoothScroll from "@common/SmoothScroll";
@@ -10,6 +10,11 @@ const poppins = Poppins({
   variable: "--font-poppins",
 });
 
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+});
+
 export const metadata = {
   title: "Qawha Ventures",
   description: "Qawha Ventures",
@@ -18,7 +23,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={poppins.variable}>
+      <body className={`${poppins.variable} ${inter.variable}`}>
         <SmoothScroll />
         <ClientLayoutWrapper>
           {children}

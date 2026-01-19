@@ -22,9 +22,6 @@ const Banner = () => {
                 loop={true}
                 speed={800}
                 effect="fade"
-                // fadeEffect={{
-                //     crossFade: true
-                // }}
                 className="bannerSwiper"
             >
                 {bannerSlides.map((slide) => (
@@ -40,15 +37,7 @@ const Banner = () => {
                             <div className='bannerOverlay'></div>
                             <div className='container'>
                                 <div className='bannerContent'>
-                                    <h1>
-                                        <Image
-                                            src={slide.logo}
-                                            alt={slide.title}
-                                            width={512}
-                                            height={112}
-                                            className='img'
-                                        />
-                                    </h1>
+                                    <h1>{slide.title}</h1>
                                     <p>{slide.description}</p>
                                 </div>
                             </div>
