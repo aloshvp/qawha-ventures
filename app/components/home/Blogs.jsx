@@ -8,7 +8,6 @@ const Blogs = () => {
         <section className='blogsWrap'>
             <div className="container">
                 <div className="blogsHead">
-                    {/* <span>Updates & Insights</span> */}
                     <h2>News & Updates</h2>
                 </div>
                 <div className="blogsBody">
