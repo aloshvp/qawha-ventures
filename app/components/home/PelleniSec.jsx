@@ -22,7 +22,7 @@ const PelleniSec = () => {
                         className='pelliniSecImg'
                     />
                     <h2>Authentic Italian, Timeless Taste</h2>
-                    <p>Pelleni is a modern Italian restaurant that offers a unique dining experience with a focus on fresh, seasonal ingredients and innovative dishes. Our menu features a variety of pasta, pizza, and seafood options, all made with the highest quality ingredients. We also offer a selection of wines and cocktails to complement your meal.</p>
+                    <p>An iconic Italian coffee brand with deep heritage of over a century, globally recognised for premium blends and authentic café culture.</p>
                     <Link href="" scroll={false}>
                         Explore Italian Heritage
                         <Image

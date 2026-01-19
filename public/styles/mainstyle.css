@@ -192,10 +192,10 @@
 .aboutContentRght > p{font-size: 18px;line-height: 1.6em;max-width: 510px;margin-right: 60px;}
 
 /*faq*/
-.faqWrap{padding: 60px 0 100px 0;background: #43291C;}
+.faqWrap{padding: 115px 0 130px;background: #000000;}
 .faqItem{color: var(--yellow);border-bottom:1px solid var(--yellow);padding: 40px 55px 40px 0;position:relative;}
-.faqTitle{display: flex;align-items: flex-end;margin: 0 0 10px 0;gap: 25px;}
-.faqTitle > h2{font-size:60px;line-height: 1em;font-weight:700;cursor:pointer;display:flex;justify-content:flex-start;align-items:center;transition:all 0.3s ease;margin: 0;}
+.faqTitle{display: flex;align-items: flex-end;margin: 0 0 34px 0;gap: 25px;}
+.faqTitle > h2{font-size:60px;line-height: 1em;font-weight:700;cursor:pointer;display:flex;justify-content:flex-start;align-items:center;transition:all 0.3s ease;margin: 0;font-family: var(--font-inter);}
 .faqTitle em{font-size: 18px;font-weight: 400;position: relative;bottom: 5px;}
 .faqTitle:hover{color:var(--yellow);}
 .faqTitle.active{color:var(--yellow);}
@@ -204,8 +204,8 @@
 .faqToggle img:hover{transform:scale(1.1);}
 .faqContent{max-height:0;overflow:hidden;transition:max-height 0.5s ease, opacity 0.3s ease;opacity:0;}
 .faqContent.active{max-height:500px;opacity:1;}
-.faqDesc{font-size:18px;opacity:.9;margin-bottom:20px;line-height: 1.5em;}
-.faqLink{display:inline-block;font-weight:600;transition:.3s ease;font-size:18px;}
+.faqDesc{font-size:18px;opacity:.9;margin-bottom:12px;line-height: 1.5em;font-family: var(--font-inter);}
+.faqLink{display:inline-block;font-weight:600;transition:.3s ease;font-size:18px;font-family: var(--font-inter);}
 .faqLink:hover{color:var(--yellow);}
 
 /*Testimonial*/

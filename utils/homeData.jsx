@@ -111,21 +111,15 @@ export const blogs = [
 
 export const faqData = [
     {
-        title: "What makes our coffee special?",
+        title: "Explore Our Portfolio",
         subtitle: "",
         description: "Pellini Aluminum Capsules 80% recycled compatible with Nespresso® machines, 10 Caps / Pack. At Qahwa Ventures, we are passionate about delivering the finest and most authentic Italian coffee to our customers. Our commitment to quality and craftsmanship ensures that every cup of coffee tells a story of tradition, excellence, and unparalleled taste.",
         link: ""
     },
     {
-        title: "Why Choose us",
+        title: "Partner With Us",
         subtitle: "",
-        description: "We provide fast and secure shipping across all major locations.",
+        description: "Pellini Aluminum Capsules 80% recycled compatible with Nespresso® machines, 10 Caps / Pack. At Qahwa Ventures, we are passionate about delivering the finest and most authentic Italian coffee to our customers. Our commitment to quality and craftsmanship ensures that every cup of coffee tells a story of tradition, excellence, and unparalleled taste.",
         link: ""
     },
-    {
-        title: "Partners",
-        subtitle: "Working With the Best Clients and Partners",
-        description: "Our support team is available 24/7 for your assistance.",
-        link: ""
-    }
 ];

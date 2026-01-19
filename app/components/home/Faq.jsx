@@ -39,7 +39,7 @@ const Faq = () => {
                             <div className={`faqContent ${activeIndex === index ? 'active' : ''}`}>
                                 <p className="faqDesc">{item.description}</p>
                                 <Link href={item.link} className="faqLink" scroll={false}>
-                                    Learn More +
+                                    Explore More +
                                 </Link>
                             </div>
                         </div>
