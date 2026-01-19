@@ -235,10 +235,10 @@
 .testimonialSwiper .swiper-pagination-bullet-active::before{background:#fff!important;opacity:1!important;width:5px!important;height:5px!important;}
 
 /*blogs*/
-.blogsWrap{padding: 90px 0 115px;background: #151412;}
-.blogsHead{text-align: center;color: var(--yellow);margin-bottom: 75px;}
-.blogsHead > span{font-size: 25px;font-weight: 100;line-height: 1em;display: block;margin-bottom: 2px;}
-.blogsHead > h2{font-size: 80px;line-height: 1em;font-weight: 700;margin: 0;}
+.blogsWrap{padding: 92px 0 124px;background: #151412;}
+.blogsHead{text-align: center;color: var(--yellow);margin-bottom: 116px;}
+/* .blogsHead > span{font-size: 25px;font-weight: 100;line-height: 1em;display: block;margin-bottom: 2px;} */
+.blogsHead > h2{font-size: 45px;line-height: 1em;font-weight: 600;margin: 0;font-family: var(--font-inter);}
 .blogsBody{display: grid;grid-template-columns: repeat(4, 1fr);gap: 30px;color: var(--yellow);}
 .blogItem{border-bottom: 1px solid var(--yellow);}
 .blogItem > span{font-size: 13px;line-height: 1em;margin: 30px 0 15px;display: block;}
