@@ -108,7 +108,7 @@ const Footer = () => {
                 </div>
                 <div className="footerBottomSec">
                     <span>© Qahwa Ventures Pvt Ltd.AllRightsReserved</span>
-                    <em>Developed by Marin Infotech</em>
+                    <span>Developed by Marin Infotech</span>
                 </div>
             </div>
         </footer>

@@ -43,15 +43,15 @@
 .sidebarNavList a:hover,.sidebarNavList .homeLink{color:#000}
 
 /*WhatsApp Button*/
-.whatsappBtnWrap{position: fixed;bottom: 60px;right: 60px;z-index: 1000;border-radius: 50%;padding: 8px;background: rgba(191, 191, 191, 0.2); }
+.whatsappBtnWrap{position: fixed;bottom: 60px;right: 60px;z-index: 1000;border-radius: 50%;padding: 8px;}
 .whatsappBtn{display: inline-block;width: 38px;height: 38px;display: flex;align-items: center;justify-content: center;transition: all 0.3s ease;}
 .whatsappBtn:hover{transform: scale(1.1);}
 .whatsappBtn img{width: 38px;height: 38px;}
 
 /*Footer*/
-.footerWrap{padding: 100px 0 45px;background: #000;color: var(--yellow);}
+.footerWrap{padding: 87px 0 60px;background: #000;color: var(--yellow);}
 .footerContent{display: flex;gap: 60px;padding-bottom: 75px;}
-.footerLogoSec{display: flex;gap: 20px;max-width: 250px;flex-direction: column;}
+.footerLogoSec{display: flex;max-width: 250px;flex-direction: column;}
 .footerContactSec { display: grid; grid-template-columns: repeat(4, 1fr); grid-template-rows: repeat(2, 1fr); gap:60px 30px;width: 100%;} 
 .footerLinkSec { grid-row: span 2 / span 2; } 
 .newsletterSec { grid-column: span 3 / span 3; grid-column-start: 2; }
@@ -62,9 +62,9 @@
 .footerContactDetails{display: flex;gap: 60px;justify-content: space-between;}
 .addressSec > p{font-size: 18px;line-height: 1.8em;}
 .addressSec > p > em{font-style: normal;display: block;}
-.phoneSec{display: flex;flex-direction: column;gap: 40px;}
+.phoneSec{display: flex;flex-direction: column;gap: 60px;}
 .phoneSec > a{font-size: 18px;line-height: 1em;}
-.socialMediaLinksSec{display: flex;flex-direction: column;gap: 40px;}
+.socialMediaLinksSec{display: flex;flex-direction: column;gap: 60px;}
 .socialMediaLinksSec > span{font-size: 18px;line-height: 1em;font-weight: 500;}
 .socialMediaLinks{display: flex;gap: 25px;}
 .socialMediaLinks > a .socailMediaLogo{transition: all 0.5s ease;}
@@ -75,11 +75,11 @@
 .newsletterInput input{all: unset;width: 100%;padding: 6px 0; border-bottom: 1px solid var(--yellow);}
 .newsletterInput input::placeholder{color: var(--yellow);font-size: 14px;line-height: 1em;}
 .newsletterInput > a{position: absolute;top: 3px;right: 0;}
-.footerBottomSec{display: flex;justify-content: space-between;color: var(--yellow);padding-top: 30px;border-top: 1px solid var(--yellow);}
-.footerBottomSec > span{font-size: 16px;line-height: 1em;}
-.footerBottomSec > em{display: block;font-style: normal;font-size: 16px;line-height: 1em;}
+.footerBottomSec{display: flex;justify-content: space-between;color: var(--yellow);padding-top: 32px;border-top: 1px solid var(--yellow);}
+.footerBottomSec > span{font-size: 16px;line-height: 1em;font-family: var(--font-inter);}
+/* .footerBottomSec > em{display: block;font-style: normal;font-size: 16px;line-height: 1em;} */
 .qahwaVenturesPartnersLogo{display: flex;gap: 20px;}
-.qahwaVenturesText{max-width: 413px;font-size: 16px;line-height: 1.8em;font-family: var(--font-inter);}
+.qahwaVenturesText{max-width: 413px;font-size: 16px;line-height: 1.8em;font-family: var(--font-inter);margin: 42px 0 72px;}
 
 /*Banner*/
 .bannerWrapper{position:relative;}

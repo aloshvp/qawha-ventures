@@ -12,8 +12,8 @@
     .navLinksList{gap:90px;}
 
     /*Footer*/
-    .phoneSec{justify-content: space-between;}
-    .socialMediaLinksSec{justify-content: space-between;}
+    /* .phoneSec{justify-content: space-between;} */
+    /* .socialMediaLinksSec{justify-content: space-between;} */
 
 
     /*Pellini Details*/
@@ -44,8 +44,7 @@
     /*Brochure*/
     .BrochureContent {max-width: 445px;}
 
-    /*footer*/
-    .footerLogoSec{gap: 30px;}
+    /*footer*/    
     .footerLogoSec{max-width: 100%;}
 }
 
