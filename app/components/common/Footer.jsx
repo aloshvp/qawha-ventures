@@ -10,20 +10,26 @@ const Footer = () => {
                     <div className="footerLogoSec">
                         <div className='qahwaVenturesLogo'>
                             <Image
-                                src="/images/common/QahwaVentures-logo.png"
+                                src="/images/common/logo.svg"
                                 width={163}
                                 height={164}
                                 alt="Qahwa Ventures"
                             />
                         </div>
-                        <div className='pelliniLogo'>
-                            <Image
-                                src="/images/common/Pellini-Logo.png"
-                                width={305}
-                                height={125}
-                                alt="Pellini"
-                            ></Image>
+                        <div className='qahwaVenturesText'>
+                            <p>
+                                Qahwa Ventures is a Qatar-based F&B investment and franchise management company focused on building scalable, high-value consumer brands across the region.
+                            </p>
                         </div>
+                        <div className='qahwaVenturesPartnersLogo'>
+                            <Image
+                                src="/images/common/footer-logo.svg"
+                                width={358}
+                                height={69}
+                                alt="Qahwa Ventures"
+                            />
+                        </div>
+
                     </div>
                     <div className='footerContactSec'>
                         <div className='footerLinkSec'>

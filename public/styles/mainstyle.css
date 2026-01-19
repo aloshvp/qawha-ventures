@@ -51,7 +51,7 @@
 /*Footer*/
 .footerWrap{padding: 100px 0 45px;background: #000;color: var(--yellow);}
 .footerContent{display: flex;gap: 60px;padding-bottom: 75px;}
-.footerLogoSec{display: flex;gap: 20px;max-width: 250px;}
+.footerLogoSec{display: flex;gap: 20px;max-width: 250px;flex-direction: column;}
 .footerContactSec { display: grid; grid-template-columns: repeat(4, 1fr); grid-template-rows: repeat(2, 1fr); gap:60px 30px;width: 100%;} 
 .footerLinkSec { grid-row: span 2 / span 2; } 
 .newsletterSec { grid-column: span 3 / span 3; grid-column-start: 2; }
@@ -78,6 +78,8 @@
 .footerBottomSec{display: flex;justify-content: space-between;color: var(--yellow);padding-top: 30px;border-top: 1px solid var(--yellow);}
 .footerBottomSec > span{font-size: 16px;line-height: 1em;}
 .footerBottomSec > em{display: block;font-style: normal;font-size: 16px;line-height: 1em;}
+.qahwaVenturesPartnersLogo{display: flex;gap: 20px;}
+.qahwaVenturesText{max-width: 413px;font-size: 16px;line-height: 1.8em;font-family: var(--font-inter);}
 
 /*Banner*/
 .bannerWrapper{position:relative;}
