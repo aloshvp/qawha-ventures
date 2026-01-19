@@ -196,11 +196,14 @@ const Header = () => {
             <div className={`mobileSidebar ${isMobileMenuOpen ? 'active' : ''}`}>
                 <div className="sidebarOverlay" onClick={toggleMobileMenu}></div>
                 <div className="sidebarContent">
-                    <div className="sidebarHeader">
-                        <button className="closeSidebar" onClick={toggleMobileMenu}>
-                            <span></span>
-                            <span></span>
-                        </button>
+                    <div className={`hamburger ${isMobileMenuOpen ? 'active' : ''}`} onClick={toggleMobileMenu}>
+                        <Image
+                            src="/images/common/hamburger.svg"
+                            width={32}
+                            height={10}
+                            alt="Hamburger"
+                        />
+                        <span>Menu</span>
                     </div>
                     <nav className="sidebarNav">
                         <ul className="sidebarNavList">
