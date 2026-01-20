@@ -69,7 +69,7 @@
 
 
 /*WhatsApp Button*/
-.whatsappBtnWrap{position: fixed;bottom: 60px;right: 60px;z-index: 1000;border-radius: 50%;padding: 8px;}
+.whatsappBtnWrap{position: fixed;bottom: 60px;right: 60px;z-index: 1000;border-radius: 50%;}
 .whatsappBtn{display: inline-block;width: 38px;height: 38px;display: flex;align-items: center;justify-content: center;transition: all 0.3s ease;}
 .whatsappBtn:hover{transform: scale(1.1);}
 .whatsappBtn img{width: 38px;height: 38px;}
@@ -114,7 +114,7 @@
 .bannerBgImage{object-fit:cover;object-position:center;z-index:1;}
 .bannerOverlay{position:absolute;top:0;left:0;right:0;bottom:0;z-index:2;background: linear-gradient(to top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.0715) 82%, rgba(0, 0, 0, 0) 100%);}
 .bannerContent{position:relative;z-index:3;color:#fff;text-align:center;display: flex;align-items: center;justify-content: center;flex-direction: column;}
-.bannerContent h1{display: flex;align-items: center;justify-content: center;margin-bottom: 50px;font-size: 65px;line-height: 1.3em;font-weight: 600;color: #E5DAC4;max-width: 940px;}
+.bannerContent h1{display: flex;align-items: center;justify-content: center;margin-bottom: 50px;font-size: 65px;line-height: 1.3em;color: #E5DAC4;max-width: 940px;}
 .bannerContent p{font-size:18px;line-height:1.6em;color: var(--yellow);max-width: 975px;text-align: center;}
 .bannerWrapper .swiper-pagination{position:absolute!important;right:60px!important;left:auto!important;z-index:100!important;display:flex!important;flex-direction:column!important;gap:10px!important;width:auto!important;height:100%;justify-content: center;}
 .bannerWrapper .swiper-pagination-bullet{display:flex !important;align-items:center !important;justify-content:center !important;margin:0!important;width:15px!important;height:15px!important;background:transparent!important;transition:all .3s ease!important;border-radius:50%!important;border:1px solid #fff!important;}
@@ -223,7 +223,7 @@
 .faqWrap{padding: 115px 0 130px;background: #000000;}
 .faqItem{color: var(--yellow);border-bottom:1px solid var(--yellow);padding: 40px 55px 40px 0;position:relative;}
 .faqTitle{display: flex;align-items: flex-end;margin: 0;gap: 25px;}
-.faqTitle > h2{font-size:60px;line-height: 1em;font-weight:700;cursor:pointer;display:flex;justify-content:flex-start;align-items:center;transition:all 0.3s ease;margin: 0;}
+.faqTitle > h2{font-size:60px;line-height: 1em;cursor:pointer;display:flex;justify-content:flex-start;align-items:center;transition:all 0.3s ease;margin: 0;}
 .faqTitle em{font-size: 18px;font-weight: 400;position: relative;bottom: 5px;}
 .faqTitle:hover{color:var(--yellow);}
 .faqTitle.active{color:var(--yellow);}
