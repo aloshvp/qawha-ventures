@@ -178,7 +178,7 @@ const Header = () => {
                             </ul>
                         </div>
 
-                        {width <= 1024 &&
+                        {/* {width <= 1024 &&
                             <Link href="/" className="headerLogo">
                                 <Image
                                     src="/images/common/logo.svg"
@@ -187,7 +187,7 @@ const Header = () => {
                                     alt="Qahwa Ventures"
                                 />
                             </Link>
-                        }
+                        } */}
                     </div>
                 </div>
             </header>
