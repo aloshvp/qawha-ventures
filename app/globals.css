@@ -1,9 +1,9 @@
-:root {--font-poppins: var(--font-poppins);--font-inter: var(--font-inter);--yellow:#CFC4AE;}
+:root {--font-inter: var(--font-inter);--yellow:#CFC4AE;}
 .container{width:100%;margin-right:auto;margin-left:auto;padding-right:1rem;padding-left:1rem}
 *{margin:0;padding:0;box-sizing:border-box}
 ul,ol{list-style:none}
 a,a:focus, a:active{text-decoration:none;color:inherit; -webkit-tap-highlight-color: transparent;outline: none;}
-body{font-family: var(--font-poppins), sans-serif;font-weight: 400;color:#000;background-color:#fff}
+body{font-family: var(--font-inter), sans-serif;font-weight: 400;color:#000;background-color:#fff}
 img{max-width:100%;height:auto;display:block}
 button{background:none;border:none;cursor:pointer;font:inherit}
 table{border-collapse:collapse;border-spacing:0}
