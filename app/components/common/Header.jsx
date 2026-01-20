@@ -215,6 +215,15 @@ const Header = () => {
                             <li><Link href="" scroll={false} onClick={toggleMobileMenu}>Contact Us</Link></li>
                         </ul>
                     </nav>
+                    <div className="sidebarContactInfo">
+                        <Link href="tel:974 5504 2150" scroll={false} onClick={toggleMobileMenu}>TEL +974 5504 2150</Link>
+                        <Link href="mailto:info@qahwaventures.com" scroll={false} onClick={toggleMobileMenu}>info@qahwaventures.com</Link>
+                    </div>
+                    <div className="sidebarAddress">
+                        <p>Al Muntazah, Street 840</p>
+                        <p>Building 18, 1st Floor</p>
+                        <p>Office 102 Doha - Qatar </p>
+                    </div>
                 </div>
             </div>
 

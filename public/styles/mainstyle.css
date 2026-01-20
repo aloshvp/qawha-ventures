@@ -29,19 +29,23 @@
 .mobileSidebar{position:fixed;top:0;left:0;width:100%;height:100vh;z-index:1000;opacity:0;visibility:hidden;transition:all .3s ease}
 .mobileSidebar.active{opacity:1;visibility:visible}
 /* .sidebarOverlay{position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.5);backdrop-filter:blur(2px)} */
-.sidebarContent{position:absolute;top:0;left:0;width:300px;max-width:75vw;height:100vh;background:rgba(0,0,0,.78);color:#000;transform:translateX(-100%);transition:transform .3s ease;display:flex;flex-direction:column}
+.sidebarContent{position:absolute;top:0;left:0;width:489px;max-width:75vw;height:100vh;background:rgba(0,0,0,.78);color:var(--yellow);transform:translateX(-100%);transition:transform .3s ease;display:flex;flex-direction:column;padding: 60px;}
 .mobileSidebar.active .sidebarContent{transform:translateX(0)}
 .sidebarHeader{display:flex;justify-content:flex-end;padding:20px 20px 15px;}
 .closeSidebar{background:none;border:none;cursor:pointer;display:flex;flex-direction:column;gap:6px;padding:10px}
 .closeSidebar span{display:block;width:20px;height:2px;background:#000;transition:all .3s ease}
 .closeSidebar span:nth-child(1){transform:rotate(45deg) translate(5px,-0px)}
 .closeSidebar span:nth-child(2){transform:rotate(-45deg) translate(5px,0px)}
-.sidebarNav{flex:1;padding:0 20px 40px 20px}
-.sidebarNavList{list-style:none;padding:0;margin:100px 0 0}
+.sidebarNavList{list-style:none;padding:0;margin:53px 0 0;border-bottom: 1px solid var(--yellow);}
 .sidebarNavList li{margin-bottom:5px}
 .sidebarNavList a{color:var(--yellow);text-decoration:none;font-size:20px;transition:color .3s ease;display:block;padding:10px 0}
 .sidebarNavList a:hover,.sidebarNavList .homeLink{color:var(--yellow)}
 .sidebarContent .hamburger{top: 35px;}
+.sidebarContactInfo{border-bottom: 1px solid var(--yellow);}
+.sidebarContactInfo > a{color: var(--yellow);text-decoration: none;font-size: 20px; transition: color .3s ease;display: block;padding: 10px 0}
+.sidebarContactInfo > a:hover{text-shadow: 0 0 2px currentColor;}
+.sidebarAddress > p{font-size: 20px;line-height: 1.8em;padding:5px 0;}
+
 
 /*WhatsApp Button*/
 .whatsappBtnWrap{position: fixed;bottom: 60px;right: 60px;z-index: 1000;border-radius: 50%;padding: 8px;}
