@@ -1,9 +1,32 @@
-:root {--font-inter: var(--font-inter);--yellow:#CFC4AE;}
+:root {
+  --inter18ptRegular: 'Inter 18pt Regular';
+  --inter18ptBold: 'Inter 18pt Bold';
+  --inter18ptExtraBold: 'Inter 18pt ExtraBold';
+  --inter18ptLight: 'Inter 18pt Light';
+  --inter18ptMedium: 'Inter 18pt Medium';
+  --inter18ptSemiBold: 'Inter 18pt SemiBold';
+  --inter18ptThin: 'Inter 18pt Thin';
+  --inter24ptRegular: 'Inter 24pt Regular';
+  --inter24ptBold: 'Inter 24pt Bold';
+  --inter24ptExtraBold: 'Inter 24pt ExtraBold';
+  --inter24ptLight: 'Inter 24pt Light';
+  --inter24ptMedium: 'Inter 24pt Medium';
+  --inter24ptSemiBold: 'Inter 24pt SemiBold';
+  --inter24ptThin: 'Inter 24pt Thin';
+  --inter28ptRegular: 'Inter 28pt Regular';
+  --inter28ptBold: 'Inter 28pt Bold';
+  --inter28ptExtraBold: 'Inter 28pt ExtraBold';
+  --inter28ptExtraLight: 'Inter 28pt ExtraLight';
+  --inter28ptLight: 'Inter 28pt Light';
+  --inter28ptMedium: 'Inter 28pt Medium';
+  --inter28ptSemiBold: 'Inter 28pt SemiBold';
+  --yellow:#CFC4AE;
+}
 .container{width:100%;margin-right:auto;margin-left:auto;padding-right:1rem;padding-left:1rem}
 *{margin:0;padding:0;box-sizing:border-box}
 ul,ol{list-style:none}
 a,a:focus, a:active{text-decoration:none;color:inherit; -webkit-tap-highlight-color: transparent;outline: none;}
-body{font-family: var(--font-inter), sans-serif;font-weight: 400;color:#000;background-color:#fff}
+body{font-family: var(--inter18ptRegular), sans-serif;font-weight: 400;color:#000;background-color:#fff}
 img{max-width:100%;height:auto;display:block}
 button{background:none;border:none;cursor:pointer;font:inherit}
 table{border-collapse:collapse;border-spacing:0}
