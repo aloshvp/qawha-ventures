@@ -75,7 +75,7 @@
     /*header mobile menu*/
     /* .headerNavLinks {display: none;} */
     .hamburger.active span:nth-child(1) {transform: rotate(45deg) translate(5px, 5px);}
-    .hamburger.active span:nth-child(2) {opacity: 0;}
+    /* .hamburger.active span:nth-child(2) {opacity: 0;} */
     .hamburger.active span:nth-child(3) { transform: rotate(-45deg) translate(7px, -6px);}
     .talkWithUsSec{width: 120px;display: flex;align-items: center;justify-content: center;position: relative;}
     .headerWrap.scrolled .headerSec{height: 80px;padding: 25px 0 0;}
@@ -89,12 +89,39 @@
 
     /*header*/
     .whatsappBtnWrap{right: 25px;}
+    .hamburger {left: 25px;}
+    .sidebarNavList{padding: 40px 0;}
+    .sidebarNavList a{padding: 0 0 25px;}
+    .sidebarContent .hamburger{margin-bottom: 0;}
+    .sidebarContactInfo{padding: 40px 0;}
+    .sidebarAddress{padding: 40px 0 0;}
+    .sidebarContent{font-size: 385px;padding: 30px;}
 
-    /*banner*/
-    .bannerContent h1{margin-bottom: 25px;}
-    .bannerContent p{margin: 0 auto;padding: 0 65px;}
+    /*banner*/    
+    .bannerContent h1{font-size: 40px;margin: 0 25px 25px;}
+    .bannerContent p{margin: 0 auto;padding: 0 65px;font-size: 16px;}
     .bannerSlide{height:750px;}
-    .bannerWrapper .swiper-pagination{right:25px!important;} 
+    .bannerWrapper .swiper-pagination{right:25px!important;}
+    
+    /**/
+    .brandLegacyWrapper{height: 750px;}
+    .brandLegacyContent{height: calc(750px - 160px);}
+    .brandLegacyContent img{max-width: 250px;}
+    .brandLegacyContent h2{font-size: 35px;margin-top: 35px;}
+    .brandLegacyContent p{font-size: 16px;max-width: 50%;}
+    .brandLegacyContent a{font-size: 18px;margin-top: 35px;}
+    .brandLegacyRightText p{padding: 20px 25px 20px 34px;}
+
+    /**/
+    .pelliniSecWrap{height: 750px;}
+    .pelliniSecContent{height: calc(750px - 160px);}
+    .pelliniSecContent img{max-width: 250px;}
+    .pelliniSecContent h2{font-size: 35px;margin-top: 35px;max-width: 50%;}
+    .pelliniSecContent p{font-size: 16px;max-width: 50%;}
+    .pelliniSecContent a{margin-top: 25px;font-size: 18px;}
+    .pelliniSecRightText{bottom: 90px;}
+    .pelliniSecRightText p{padding:18px 25px 18px 34px;}
+
 
     /*who we are*/
     .whoWeAreWrap{height: 750px;padding: 80px 0;}
@@ -141,8 +168,8 @@
 
     /*faq*/
     .faqWrap{padding: 50px 0 60px;}
-    .faqTitle > h2{font-size: 36px;}
-    .faqItem{padding:30px 40px 30px 0;}
+    .faqTitle > h2{font-size: 30px;}
+    .faqItem{padding:30px 45px 30px 0;}
     .faqToggle > img{width: 30px;height: 30px;}
 
     /*testimonial*/
@@ -156,11 +183,15 @@
  
     /*Footer*/
     .footerWrap{padding: 60px 0 35px;}
-    .footerContent{flex-direction: column;gap: 45px;}    
+    .footerContent{flex-direction: column;gap: 45px;} 
+    .footerLogoSec{flex-direction: row;gap: 25px;max-width: 100%;align-items: center;}
+    .qahwaVenturesText{margin: 0;}
+    .qahwaVenturesText{font-size: 15px;line-height: 1.6em;}
     
     /*blogs*/
     .blogsWrap{padding: 80px 0;}
     .blogsBody{grid-template-columns: repeat(2, 1fr);gap: 60px 30px;}
+    .blogsHead{margin-bottom: 80px;}
    
 }
 
@@ -173,8 +204,8 @@
     .hamburger{gap: 7px;}
     .headerWrap.scrolled .talkWithUsIcon{width: 18px;height: 18px;left: 0px;bottom: 25px;}
     .talkWithUsSec{align-items: flex-start;}
-    .sidebarContent{width: 350px;max-width: 85vw;}
-    .headerWrap.scrolled .headerLogo > img { left: 60px;}
+    .sidebarContent{width: 350px;max-width: 85vw;}    
+    .hamburger {left: 15px;}   
 
     /*banner*/
     .bannerContent .img{max-width: 80%;}    
@@ -254,6 +285,8 @@
     .footerContactSec{display: flex;flex-direction: column;}
     .footerBottomSec{flex-direction: column;align-items: center;gap: 10px;padding-top: 25px;}
     .footerContent{padding-bottom: 45px;}
+    .footerLogoSec{flex-direction: column;align-items: flex-start;}
+    .qahwaVenturesLogo > img{max-width: 90px;}
 
 
     
