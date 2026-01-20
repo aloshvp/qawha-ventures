@@ -108,7 +108,17 @@ const Footer = () => {
                 </div>
                 <div className="footerBottomSec">
                     <span>© Qahwa Ventures Pvt Ltd.AllRightsReserved</span>
-                    <span>Developed by Marin Infotech</span>
+                    <span>
+                        Developed by
+                        <Link
+                            href="https://marininfotech.in/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            {" "}
+                            Marin Infotech
+                        </Link>
+                    </span>
                 </div>
             </div>
         </footer>
