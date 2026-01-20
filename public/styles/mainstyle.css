@@ -36,15 +36,17 @@
 .closeSidebar span{display:block;width:20px;height:2px;background:#000;transition:all .3s ease}
 .closeSidebar span:nth-child(1){transform:rotate(45deg) translate(5px,-0px)}
 .closeSidebar span:nth-child(2){transform:rotate(-45deg) translate(5px,0px)}
-.sidebarNavList{list-style:none;padding:0;margin:53px 0 0;border-bottom: 1px solid var(--yellow);}
-.sidebarNavList li{margin-bottom:5px}
-.sidebarNavList a{color:var(--yellow);text-decoration:none;font-size:20px;transition:color .3s ease;display:block;padding:10px 0}
-.sidebarNavList a:hover,.sidebarNavList .homeLink{color:var(--yellow)}
-.sidebarContent .hamburger{top: 35px;}
-.sidebarContactInfo{border-bottom: 1px solid var(--yellow);}
-.sidebarContactInfo > a{color: var(--yellow);text-decoration: none;font-size: 20px; transition: color .3s ease;display: block;padding: 10px 0}
+.sidebarNavList{list-style:none;padding:60px 0;margin:0;border-bottom: 1px solid var(--yellow);}
+.sidebarNavList a{color:var(--yellow);text-decoration:none;font-size:20px;line-height: 1em;transition:color .3s ease;display:block;padding:0 0 30px;}
+.sidebarNavList a:hover{text-shadow: 0 0 2px currentColor;}
+.sidebarNavList li:last-child a{padding: 0;}
+.sidebarContent .hamburger{position: static;padding: 37px 60px;}
+.sidebarContactInfo{border-bottom: 1px solid var(--yellow);padding: 60px 0;}
+.sidebarContactInfo > a{color: var(--yellow);text-decoration: none;font-size: 20px;line-height: 1em; transition: color .3s ease;display: block;padding: 0 0 15px;}
 .sidebarContactInfo > a:hover{text-shadow: 0 0 2px currentColor;}
-.sidebarAddress > p{font-size: 20px;line-height: 1.8em;padding:5px 0;}
+.sidebarContactInfo>a.emailLink{padding: 0;}
+.sidebarAddress{padding: 60px 0 0;}
+.sidebarAddress > p{font-size: 20px;line-height: 1.8em;padding: 0;}
 
 
 /*WhatsApp Button*/

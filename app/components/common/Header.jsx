@@ -216,8 +216,8 @@ const Header = () => {
                         </ul>
                     </nav>
                     <div className="sidebarContactInfo">
-                        <Link href="tel:974 5504 2150" scroll={false} onClick={toggleMobileMenu}>TEL +974 5504 2150</Link>
-                        <Link href="mailto:info@qahwaventures.com" scroll={false} onClick={toggleMobileMenu}>info@qahwaventures.com</Link>
+                        <Link className="telLink" href="tel:974 5504 2150" scroll={false} onClick={toggleMobileMenu}>TEL +974 5504 2150</Link>
+                        <Link className="emailLink" href="mailto:info@qahwaventures.com" scroll={false} onClick={toggleMobileMenu}>info@qahwaventures.com</Link>
                     </div>
                     <div className="sidebarAddress">
                         <p>Al Muntazah, Street 840</p>
