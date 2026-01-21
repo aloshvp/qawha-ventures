@@ -207,16 +207,17 @@ const Header = () => {
                     </div>
                     <nav className="sidebarNav">
                         <ul className="sidebarNavList">
-                            <li><Link href="/" className="homeLink" onClick={toggleMobileMenu}>Home</Link></li>
-                            <li><Link href="" scroll={false} onClick={toggleMobileMenu}>About Us</Link></li>
-                            <li><Link href="" scroll={false} onClick={toggleMobileMenu}>Products</Link></li>
-                            <li><Link href="" scroll={false} onClick={toggleMobileMenu}>Specialities</Link></li>
-                            <li><Link href="" scroll={false} onClick={toggleMobileMenu}>Career</Link></li>
-                            <li><Link href="" scroll={false} onClick={toggleMobileMenu}>Contact Us</Link></li>
+                            <li><Link href="/">Home</Link></li>
+                            <li><Link href="" scroll={false}>About Us</Link></li>
+                            <li><Link href="" scroll={false}>Our Portfolio</Link></li>
+                            <li><Link href="" scroll={false}>Our Expertise</Link></li>
+                            <li><Link href="" scroll={false}>Blog</Link></li>
+                            <li><Link href="" scroll={false}>Career</Link></li>
+                            <li><Link href="" scroll={false}>Contact</Link></li>
                         </ul>
                     </nav>
                     <div className="sidebarContactInfo">
-                        <Link className="telLink" href="tel:974 5504 2150" scroll={false} onClick={toggleMobileMenu}>TEL +974 5504 2150</Link>
+                        <Link className="telLink" href="tel:97451245484" scroll={false} onClick={toggleMobileMenu}>TEL +974 5124 5484</Link>                        
                         <Link className="emailLink" href="mailto:info@qahwaventures.com" scroll={false} onClick={toggleMobileMenu}>info@qahwaventures.com</Link>
                     </div>
                     <div className="sidebarAddress">

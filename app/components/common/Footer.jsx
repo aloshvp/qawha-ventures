@@ -36,11 +36,11 @@ const Footer = () => {
                             <ul className='footerLinkNav'>
                                 <li><Link href="/">Home</Link></li>
                                 <li><Link href="" scroll={false}>About Us</Link></li>
-                                <li><Link href="" scroll={false}>Products</Link></li>
-                                <li><Link href="" scroll={false}>Specialties</Link></li>
+                                <li><Link href="" scroll={false}>Our Portfolio</Link></li>
+                                <li><Link href="" scroll={false}>Our Expertise</Link></li>
                                 <li><Link href="" scroll={false}>Blog</Link></li>
                                 <li><Link href="" scroll={false}>Career</Link></li>
-                                <li><Link href="" scroll={false}>Contact Us</Link></li>
+                                <li><Link href="" scroll={false}>Contact</Link></li>
                             </ul>
                         </div>
                         <div className='addressSec'>
@@ -52,7 +52,7 @@ const Footer = () => {
                         </div>
                         <div className="phoneSec">
                             <Link href="mailto:info@qahwaventures.com " scroll={false}>info@qahwaventures.com </Link>
-                            <Link href="tel:97455042150" scroll={false}>+974 5504 2150</Link>
+                            <Link href="tel:97451245484" scroll={false}>+974 5124 5484</Link>
                         </div>
                         <div className='socialMediaLinksSec'>
                             <span>Social Links</span>
