@@ -11,8 +11,8 @@ const Footer = () => {
                         <div className='qahwaVenturesLogo'>
                             <Image
                                 src="/images/common/logo.svg"
-                                width={163}
-                                height={164}
+                                width={162}
+                                height={162}
                                 alt="Qahwa Ventures"
                             />
                         </div>
