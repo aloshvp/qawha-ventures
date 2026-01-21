@@ -212,8 +212,8 @@ const Header = () => {
                             <li><Link href="" scroll={false}>Our Portfolio</Link></li>
                             <li><Link href="" scroll={false}>Expertise</Link></li>
                             <li><Link href="" scroll={false}>Blog</Link></li>
-                            <li><Link href="" scroll={false}>Career</Link></li>
                             <li><Link href="" scroll={false}>Contact</Link></li>
+                            <li><Link href="" scroll={false}>Career</Link></li>
                         </ul>
                     </nav>
                     <div className="sidebarContactInfo">
