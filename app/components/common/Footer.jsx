@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
+import { navLinks } from '@utils/commonData'
 
 const Footer = () => {
     return (
@@ -34,13 +35,11 @@ const Footer = () => {
                     <div className='footerContactSec'>
                         <div className='footerLinkSec'>
                             <ul className='footerLinkNav'>
-                                <li><Link href="/">Home</Link></li>
-                                <li><Link href="" scroll={false}>About</Link></li>
-                                <li><Link href="" scroll={false}>Our Portfolio</Link></li>
-                                <li><Link href="" scroll={false}>Expertise</Link></li>
-                                <li><Link href="" scroll={false}>Blog</Link></li>
-                                <li><Link href="" scroll={false}>Contact</Link></li>
-                                <li><Link href="" scroll={false}>Career</Link></li>
+                                {navLinks.map((link) => (
+                                    <li key={link.id}>
+                                        <Link href={link.href} scroll={link.href === "/" ? true : false}>{link.label}</Link>
+                                    </li>
+                                ))}
                             </ul>
                         </div>
                         <div className='addressSec'>

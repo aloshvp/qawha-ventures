@@ -128,6 +128,7 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import useWindowSize from "@components/functions/useWindowSize";
+import { navLinks } from '@utils/commonData'
 
 const Header = () => {
     const { width } = useWindowSize();
@@ -207,13 +208,13 @@ const Header = () => {
                     </div>
                     <nav className="sidebarNav">
                         <ul className="sidebarNavList">
-                            <li><Link href="/">Home</Link></li>
-                            <li><Link href="" scroll={false}>About</Link></li>
-                            <li><Link href="" scroll={false}>Our Portfolio</Link></li>
-                            <li><Link href="" scroll={false}>Expertise</Link></li>
-                            <li><Link href="" scroll={false}>Blog</Link></li>
-                            <li><Link href="" scroll={false}>Contact</Link></li>
-                            <li><Link href="" scroll={false}>Career</Link></li>
+                            {navLinks.map((link) => (
+                                <li key={link.id}>
+                                    <Link href={link.href} scroll={link.href === "/" ? true : false} onClick={toggleMobileMenu}>
+                                        {link.label}
+                                    </Link>
+                                </li>
+                            ))}
                         </ul>
                     </nav>
                     {/* <div className="sidebarContactInfo">
