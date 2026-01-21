@@ -5,8 +5,8 @@ import SmoothScroll from "@common/SmoothScroll";
 import ClientLayoutWrapper from "@common/ClientLayoutWrapper";
 
 export const metadata = {
-  title: "Qawha Ventures",
-  description: "Qawha Ventures",
+  title: "Qahwa Ventures",
+  description: "Qahwa Ventures",
 };
 
 export default function RootLayout({ children }) {
