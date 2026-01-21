@@ -216,7 +216,7 @@ const Header = () => {
                             <li><Link href="" scroll={false}>Career</Link></li>
                         </ul>
                     </nav>
-                    <div className="sidebarContactInfo">
+                    {/* <div className="sidebarContactInfo">
                         <Link className="telLink" href="tel:97451245484" scroll={false} onClick={toggleMobileMenu}>TEL +974 5124 5484</Link>                        
                         <Link className="emailLink" href="mailto:info@qahwaventures.com" scroll={false} onClick={toggleMobileMenu}>info@qahwaventures.com</Link>
                     </div>
@@ -224,7 +224,7 @@ const Header = () => {
                         <p>Al Muntazah, Street 840</p>
                         <p>Building 18, 1st Floor</p>
                         <p>Office 102 Doha - Qatar </p>
-                    </div>
+                    </div> */}
                 </div>
             </div>
 
