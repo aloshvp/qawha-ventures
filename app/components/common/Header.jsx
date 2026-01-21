@@ -208,9 +208,9 @@ const Header = () => {
                     <nav className="sidebarNav">
                         <ul className="sidebarNavList">
                             <li><Link href="/">Home</Link></li>
-                            <li><Link href="" scroll={false}>About Us</Link></li>
+                            <li><Link href="" scroll={false}>About</Link></li>
                             <li><Link href="" scroll={false}>Our Portfolio</Link></li>
-                            <li><Link href="" scroll={false}>Our Expertise</Link></li>
+                            <li><Link href="" scroll={false}>Expertise</Link></li>
                             <li><Link href="" scroll={false}>Blog</Link></li>
                             <li><Link href="" scroll={false}>Career</Link></li>
                             <li><Link href="" scroll={false}>Contact</Link></li>
