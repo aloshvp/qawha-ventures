@@ -12,22 +12,24 @@ const Blogs = () => {
                 </div>
                 <div className="blogsBody">
                     {blogs.map((blog, index) => (
-                        <div key={blog.id} className="blogItem" data-aos="fade-up" data-aos-delay={index * 100}>
-                            <div className="blogImg">
-                                <Image
-                                    src={blog.image}
-                                    width={410} height={258}
-                                    alt="blog"
-                                />
+                        <Link key={blog.id} href={blog.link} scroll={false} className="blogItemLink">
+                            <div className="blogItem" data-aos="fade-up" data-aos-delay={index * 100}>
+                                <div className="blogImg">
+                                    <Image
+                                        src={blog.image}
+                                        width={410} height={258}
+                                        alt="blog"
+                                    />
+                                </div>
+                                <span>{blog.date}</span>
+                                <h5>{blog.title}</h5>
+                                <p>{blog.description}</p>
+                                <div className="blogLink">
+                                    Learn More
+                                    <Image src="/images/home/arrow-right.png" alt="Download" width={18} height={10} />
+                                </div>
                             </div>
-                            <span>{blog.date}</span>
-                            <h5>{blog.title}</h5>
-                            <p>{blog.description}</p>
-                            <Link href={blog.link} scroll={false}>
-                                Learn More
-                                <Image src="/images/home/arrow-right.png" alt="Download" width={18} height={10} />
-                            </Link>
-                        </div>
+                        </Link>
                     ))}
                 </div>
             </div>

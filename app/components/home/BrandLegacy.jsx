@@ -37,7 +37,7 @@ const BrandLegacy = () => {
                     </Link>
                 </div>
             </div>
-            <div className='brandLegacyRightText'>
+            <div className='brandLegacyRightText' data-aos="fade-up">
                 <p>Under development – A flagship launch is planned for July 2026.</p>
             </div>
         </section>

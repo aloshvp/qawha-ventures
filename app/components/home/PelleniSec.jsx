@@ -35,7 +35,7 @@ const PelleniSec = () => {
                     </Link>
                 </div>
             </div>
-            <div className='pelliniSecRightText'>
+            <div className='pelliniSecRightText' data-aos="fade-up">
                 <p>First Pellini Caffe Outlet in Abu Sidra Mall and retail sales through
                     <em></em>
                     all major hypermarkets & Supermarkets.</p>
