@@ -15,6 +15,11 @@
     /* .phoneSec{justify-content: space-between;} */
     /* .socialMediaLinksSec{justify-content: space-between;} */
 
+    /*banner*/
+    .bannerWrapper .swiper-pagination{gap: 12px !important;}
+    .bannerWrapper .swiper-pagination-bullet {width:20px !important;height: 20px !important;}
+    .bannerWrapper .swiper-pagination-bullet::before {width: 4px !important;height: 4px !important;}
+
 
     /*Pellini Details*/
     .pelliniDetailsContent{padding-right: 160px;}
