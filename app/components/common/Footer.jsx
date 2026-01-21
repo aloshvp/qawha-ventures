@@ -107,7 +107,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="footerBottomSec">
-                    <span>© Qahwa Ventures Pvt Ltd.AllRightsReserved</span>
+                    <span>© Qahwa Ventures Pvt Ltd.All Rights Reserved</span>
                     <span>
                         Developed by
                         <Link
