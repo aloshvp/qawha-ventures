@@ -7,12 +7,12 @@ const Blogs = () => {
     return (
         <section className='blogsWrap'>
             <div className="container">
-                <div className="blogsHead">
+                <div className="blogsHead" data-aos="fade-up">
                     <h2>News & Updates</h2>
                 </div>
                 <div className="blogsBody">
-                    {blogs.map((blog) => (
-                        <div key={blog.id} className="blogItem">
+                    {blogs.map((blog, index) => (
+                        <div key={blog.id} className="blogItem" data-aos="fade-up" data-aos-delay={index * 100}>
                             <div className="blogImg">
                                 <Image
                                     src={blog.image}

@@ -13,7 +13,7 @@ const BrandLegacy = () => {
                 priority
             />
             <div className='container'>
-                <div className='brandLegacyContent'>
+                <div className='brandLegacyContent' data-aos="fade-up">
                     <Image
                         src="/images/home/Chutney-and-co-logo.svg"
                         alt="Chutney and Co Logo"

@@ -13,7 +13,7 @@ const PelleniSec = () => {
                 priority
             />
             <div className='container'>
-                <div className='pelliniSecContent'>
+                <div className='pelliniSecContent' data-aos="fade-up">
                     <Image
                         src="/images/home/Pellini-Logo.png"
                         alt="Pelleni Logo"

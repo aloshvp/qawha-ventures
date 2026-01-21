@@ -37,8 +37,8 @@ const Banner = () => {
                             <div className='bannerOverlay'></div>
                             <div className='container'>
                                 <div className='bannerContent'>
-                                    <h1>{slide.title}</h1>
-                                    <p>{slide.description}</p>
+                                    <h1 data-aos="fade-up">{slide.title}</h1>
+                                    <p data-aos="fade-up" data-aos-delay="100">{slide.description}</p>
                                 </div>
                             </div>
                         </div>

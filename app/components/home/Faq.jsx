@@ -16,7 +16,7 @@ const Faq = () => {
             <div className="container">
                 <div className="faqBody">
                     {faqData?.map((item, index) => (
-                        <div key={index} className="faqItem">
+                        <div key={index} className="faqItem" data-aos="fade-up" data-aos-delay={index * 100}>
                             <div className="faqTitle">
                                 <h2
                                     className={`${activeIndex === index ? 'active' : ''}`}

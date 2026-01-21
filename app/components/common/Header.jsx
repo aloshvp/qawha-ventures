@@ -227,7 +227,7 @@ const Header = () => {
                 </div>
             </div>
 
-            <div className="whatsappBtnWrap">
+            <div className="whatsappBtnWrap" data-aos="fade-up" data-aos-offset="0">
                 <Link href="" target="_blank" rel="noopener noreferrer" className="whatsappBtn" scroll={false}>
                     <Image
                         src="/images/common/whatsapp.png"
