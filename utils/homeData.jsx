@@ -113,13 +113,15 @@ export const faqData = [
     {
         title: "Explore Our Portfolio",
         subtitle: "",
-        description: "Pellini Aluminum Capsules 80% recycled compatible with Nespresso® machines, 10 Caps / Pack. At Qahwa Ventures, we are passionate about delivering the finest and most authentic Italian coffee to our customers. Our commitment to quality and craftsmanship ensures that every cup of coffee tells a story of tradition, excellence, and unparalleled taste.",
+        description: "At Qahwa Ventures, our portfolio represents a curated selection of premium food & beverage brands, each chosen for strong brand equity, proven operating models, and regional scalability. We partner with globally recognized and high-growth concepts to deliver consistent quality, authentic experiences, and sustainable returns across our markets.",
+        description2: "Each brand within our portfolio is supported by robust supply chains, standardized operating procedures, and hands-on management oversight. This diversified portfolio positions Qahwa Ventures as a strategic franchise partner focused on long-term growth, brand stewardship, and market leadership.",
         link: ""
     },
     {
         title: "Partner With Us",
         subtitle: "",
-        description: "Pellini Aluminum Capsules 80% recycled compatible with Nespresso® machines, 10 Caps / Pack. At Qahwa Ventures, we are passionate about delivering the finest and most authentic Italian coffee to our customers. Our commitment to quality and craftsmanship ensures that every cup of coffee tells a story of tradition, excellence, and unparalleled taste.",
+        description: "At Qahwa Ventures, we offer strategic franchise partnership capabilities that drive brand expansion, operational excellence, and sustainable market penetration across Qatar and the GCC. With deep local market expertise, strong operational infrastructure, and a commitment to quality execution, we empower global and regional brands to scale with confidence.",
+        description2: "We are committed to long-term franchise success through disciplined execution, performance measurement, and continuous improvement—making us the partner of choice for brands seeking responsible, profitable, and sustainable growth in dynamic markets",
         link: ""
     },
 ];
